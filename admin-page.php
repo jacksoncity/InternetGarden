@@ -1,7 +1,16 @@
 <?php
 session_start();
+
+// Only allow access for users with the 'admin' role
 $username = $_SESSION['username'] ?? '';
 $role = $_SESSION['role'] ?? '';
+if (($role ?? '') !== 'admin') {
+  // Optionally set an error message for the login page
+  $_SESSION['login_error'] = 'You must be an admin to access that page.';
+  header('Location: adminlogin.php');
+  exit();
+}
+
 ?>
 
 <!DOCTYPE html>

@@ -159,11 +159,9 @@ $role = $_SESSION['role'] ?? '';
                 <p class="admin-login">Admin Login</p>
             </a>
             <?php if ($role === 'admin'): ?>
-                <a href="admin-page.php" class="admin-login">Admin Dashboard</a>
-            <?php endif; ?>
-
-            <?php if (!empty($role)): ?>
-                <a href="admin-page.php" class="admin-login">Admin Dashboard</a>
+                <a href="admin-page.php">
+                    <p class="admin-login">Admin Dashboard</p>
+                </a>
             <?php endif; ?>
         </div>
     </div>
