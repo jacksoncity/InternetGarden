@@ -17,7 +17,7 @@
       <h2 class="sidebar-title">Navigation</h2>
       <img src="assets/starsgrey.gif" class="divider-panel" />
       <ul class="sidebar-list">
-        <li><a href="main.html">Home</a></li>
+        <li><a href="main.php">Home</a></li>
         <li><a href="videogames.html">Video Games</a></li>
         <li><a href="music.html">Music</a></li>
         <li><a href="projects.html">Projects</a></li>

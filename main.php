@@ -1,3 +1,8 @@
+<?php
+session_start();
+$username = $_SESSION['username'] ?? '';
+$role = $_SESSION['role'] ?? '';
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,12 +16,12 @@
     <!-- side bar -->
     <div class="container">
       <div class="sidebar-home-left">
-        <a href="main.html"><img src="assets/logo.png" class="logo" /> </a>
+        <a href="main.php"><img src="assets/logo.png" class="logo" /> </a>
         <img src="assets/glitterblue.gif" class="divider-home" />
         <h2 class="sidebar-title">Navigation</h2>
         <img src="assets/glitterblue.gif" class="divider-home" />
         <ul class="sidebar-list">
-          <li><a href="main.html">Home</a></li>
+          <li><a href="main.php">Home</a></li>
           <li><a href="videogames.html">Video Games</a></li>
           <li><a href="music.html">Music</a></li>
           <li><a href="projects.html">Projects</a></li>
@@ -34,6 +39,10 @@
       <div class="main-content-home">
         <div class="header">
           <h1 class="titleHOME">Welcome to Jackson's Internet Garden</h1>
+          <?php if ($username): ?>
+            <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
+              <?= $role ? ' (' . htmlspecialchars($role) . ')' : '' ?></p>
+          <?php endif; ?>
           <p class="flvrHOME">
             The <i>opposite</i> of a portfolio website.<br />
             Where I let my creative outlets grow.
@@ -74,7 +83,6 @@
             detached from the external resources. There are no ads, no
             WordPress, no SEO optimization. I wanted something quiet and
             interesting, a corner of the web that I can claim as my own.
-            <br />
             <br />
             I hope that through this site, my Garden on the Internet, I can
             express how fun the indie web can be, and a call to explore the

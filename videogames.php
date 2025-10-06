@@ -10,18 +10,18 @@
     <div class="container">
       <!-- side bar -->
       <div class="sidebar-videogames-left">
-        <a href="main.html"><img src="assets/logo.png" class="logo" /> </a>
+        <a href="main.php"><img src="assets/logo.png" class="logo" /> </a>
         <img src="assets/dividervg.gif" class="divider-vg" />
         <h2 class="sidebar-title">Navigation</h2>
         <img src="assets/dividervg.gif" class="divider-vg" />
         <ul class="sidebar-list-vg">
-          <li><a href="main.html">Home</a></li>
-          <li><a href="videogames.html">Video Games</a></li>
-          <li><a href="music.html">Music</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="about.html">About Me</a></li>
+          <li><a href="main.php">Home</a></li>
+          <li><a href="videogames.php">Video Games</a></li>
+          <li><a href="music.php">Music</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="resources.php">Resources</a></li>
+          <li><a href="about.php">About Me</a></li>
         </ul>
         <img src="assets/dividervg.gif" class="divider-vg" />
         <img
