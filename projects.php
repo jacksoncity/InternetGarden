@@ -1,88 +1,95 @@
+<?php
+session_start();
+$username = $_SESSION['username'] ?? '';
+$role = $_SESSION['role'] ?? '';
+?>
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="javacript" href="script.js" />
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <title>Jackson's Internet Garden - Projects</title>
-  </head>
-  <body class="projects">
-    <div class="container">
-      <!-- side bar -->
-      <div class="sidebar-projects-left">
-        <a href="main.php"><img src="assets/logo.png" class="logo" /> </a>
-        <img src="assets/starsgrey.gif" class="divider-projects" />
-        <h2 class="sidebar-title">Navigation</h2>
-        <img src="assets/starsgrey.gif" class="divider-projects" />
-        <ul class="sidebar-list">
-          <li><a href="main.php">Home</a></li>
-          <li><a href="videogames.php">Video Games</a></li>
-          <li><a href="music.php">Music</a></li>
-          <li><a href="projects.php">Projects</a></li>
-          <li><a href="blog.php">Blog</a></li>
-          <li><a href="resources.php">Resources</a></li>
-          <li><a href="about.php">About Me</a></li>
-        </ul>
-        <img src="assets/starsgrey.gif" class="divider-projects" />
-        <img
-          src="assets/home-accents/gardenbutton.gif"
-          style="padding-top: 20px"
-        />
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="javacript" href="script.js" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <title>Jackson's Internet Garden - Projects</title>
+</head>
+
+<body class="projects">
+  <div class="container">
+    <!-- side bar -->
+    <div class="sidebar-projects-left">
+      <a href="main.php"><img src="assets/logo.png" class="logo" /> </a>
+      <img src="assets/starsgrey.gif" class="divider-projects" />
+      <h2 class="sidebar-title">Navigation</h2>
+      <img src="assets/starsgrey.gif" class="divider-projects" />
+      <ul class="sidebar-list">
+        <li><a href="main.php">Home</a></li>
+        <li><a href="videogames.php">Video Games</a></li>
+        <li><a href="music.php">Music</a></li>
+        <li><a href="projects.php">Projects</a></li>
+        <li><a href="blog.php">Blog</a></li>
+        <li><a href="resources.php">Resources</a></li>
+        <li><a href="about.php">About Me</a></li>
+      </ul>
+      <img src="assets/starsgrey.gif" class="divider-projects" />
+      <img
+        src="assets/home-accents/gardenbutton.gif"
+        style="padding-top: 20px" />
+    </div>
+    <div class="main-content-project">
+      <!-- Header of the main home landing page-->
+      <div class="header-project">
+        <h1 class="titleHOME">Projects</h1>
+        <p class="flvrHOME">
+          Just some insight into some of my other creative interests.
+        </p>
       </div>
-      <div class="main-content-project">
-        <!-- Header of the main home landing page-->
-        <div class="header-project">
-          <h1 class="titleHOME">Projects</h1>
-          <p class="flvrHOME">
-            Just some insight into some of my other creative interests.
-          </p>
-        </div>
-        <div class="currently-working-project">
-          <h2 class="introHOME-title">Currently Showcased Project:</h2>
-          <img
-            src="assets/projects-accents/underconstruction.gif"
-            style="padding: 25px"
-          />
-          <!--WHAT IM WORKING ON UPDATE TIME-->
-          <p style="color: white">as of July 10th, 2025</p>
-        </div>
-        <div class="project-posts">
-          <h2 class="introHOME-title">Recent Project Posts</h2>
-          <div class="recent-post-list">
-            <div class="flex-items-pro">
-              <h2 style="color: white">Test 1</h2>
-            </div>
-            <div class="flex-items-pro">
-              <h2 style="color: white">Test 2</h2>
-            </div>
-            <div class="flex-items-pro">
-              <h2 style="color: white">Test 3</h2>
-            </div>
-            <div class="flex-items-pro">
-              <h2 style="color: white">Test 4</h2>
-            </div>
-            <div class="flex-items-pro">
-              <h2 style="color: white">Test 5</h2>
-            </div>
+      <div class="currently-working-project">
+        <h2 class="introHOME-title">Currently Showcased Project:</h2>
+        <img
+          src="assets/projects-accents/underconstruction.gif"
+          style="padding: 25px" />
+        <!--WHAT IM WORKING ON UPDATE TIME-->
+        <p style="color: white">as of July 10th, 2025</p>
+      </div>
+      <div class="project-posts">
+        <h2 class="introHOME-title">Recent Project Posts</h2>
+        <div class="recent-post-list">
+          <div class="flex-items-pro">
+            <h2 style="color: white">Test 1</h2>
+          </div>
+          <div class="flex-items-pro">
+            <h2 style="color: white">Test 2</h2>
+          </div>
+          <div class="flex-items-pro">
+            <h2 style="color: white">Test 3</h2>
+          </div>
+          <div class="flex-items-pro">
+            <h2 style="color: white">Test 4</h2>
+          </div>
+          <div class="flex-items-pro">
+            <h2 style="color: white">Test 5</h2>
           </div>
         </div>
       </div>
-      <div class="sidebar-projects-right">
-        <img src="assets/starsgrey.gif" class="divider-projects" />
-        <div class="btn-home">
-          <img src="assets/projects-accents/gardenbutton.gif" class="btn-att" />
-          <img src="assets/projects-accents/gimp.gif" class="btn-att" />
-
-          <img src="assets/projects-accents/github.gif" class="btn-att" />
-          <img src="assets/projects-accents/htmldream.gif" class="btn-att" />
-
-          <img src="assets/projects-accents/now.jpg" class="btn-att" />
-          <img src="assets/projects-accents/vscbutton.gif" class="btn-att" />
-        </div>
-        <img src="assets/starsgrey.gif" class="divider-projects" />
-        <div class="blinkies-home"></div>
-        <img src="assets/starsgrey.gif" class="divider-projects" />
-      </div>
     </div>
-  </body>
+    <div class="sidebar-projects-right">
+      <img src="assets/starsgrey.gif" class="divider-projects" />
+      <div class="btn-home">
+        <img src="assets/projects-accents/gardenbutton.gif" class="btn-att" />
+        <img src="assets/projects-accents/gimp.gif" class="btn-att" />
+
+        <img src="assets/projects-accents/github.gif" class="btn-att" />
+        <img src="assets/projects-accents/htmldream.gif" class="btn-att" />
+
+        <img src="assets/projects-accents/now.jpg" class="btn-att" />
+        <img src="assets/projects-accents/vscbutton.gif" class="btn-att" />
+      </div>
+      <img src="assets/starsgrey.gif" class="divider-projects" />
+      <div class="blinkies-home"></div>
+      <img src="assets/starsgrey.gif" class="divider-projects" />
+    </div>
+  </div>
+</body>
+
 </html>

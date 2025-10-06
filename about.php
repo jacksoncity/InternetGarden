@@ -1,3 +1,9 @@
+<?php
+session_start();
+$username = $_SESSION['username'] ?? '';
+$role = $_SESSION['role'] ?? '';
+?>
+
 <!DOCTYPE html>
 <html>
 
