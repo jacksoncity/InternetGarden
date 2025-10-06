@@ -152,6 +152,15 @@ $role = $_SESSION['role'] ?? '';
             </tr>
           </table>
         </div>
+        <div class="other-sites">
+          <h2 class="resource-list-title">Other Fun Sites:</h2>
+          <table class="resource-table">
+            <tr>
+              <th>Website</th>
+              <th>Type</th>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </div>

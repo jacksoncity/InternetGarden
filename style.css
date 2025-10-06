@@ -18,7 +18,7 @@ body.home {
 
 a {
   outline: none;
-  color: red;
+  color: rgb(255, 39, 39);
 }
 
 a:hover {
@@ -28,6 +28,10 @@ a:hover {
 .admin-login {
   font-size: 12px;
   opacity: 50%;
+}
+
+.user-info {
+  color: aqua;
 }
 
 /* ALL OF THIS IS HOME PAGE STUFF */
@@ -863,7 +867,7 @@ body.projects {
 .currently-working-project {
   color: white;
   text-align: center;
-  background-color: rgb(176 176 176 / 0.5);
+  background-color: rgb(176 176 176 / 0.7);
   border: 8px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   padding: 15px;
@@ -896,7 +900,7 @@ body.projects {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 150px;
-  background-color: rgb(176 176 176 / 0.5);
+  background-color: rgba(176, 176, 176, 0.7);
   border: 8px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   padding: 15px;
@@ -1366,7 +1370,7 @@ body.panel {
   display: inline-block;
   text-align: center;
   margin-top: 40px;
-  width: 45%;
+  width: 40%;
   margin-bottom: 60px;
   background-color: rgba(90, 90, 90, 0.671);
   border: 8px solid transparent;

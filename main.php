@@ -52,7 +52,7 @@ $role = $_SESSION['role'] ?? '';
                 <?php endif; ?>
                 <p class="flvrHOME">
                     The <i>opposite</i> of a portfolio website.<br />
-                    Where I let my creative outlets grow.
+                    Where You let creativity grow.
                 </p>
             </div>
             <div class="ufo-sep">
