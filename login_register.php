@@ -3,11 +3,11 @@
 session_start();
 require_once 'config.php';
 
-if (isset($_POST[''])) {
+if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $result = $conn->query("SELECT * FROM users WHERE user = '$user'");
+    $result = $conn->query("SELECT * FROM users WHERE username = '$user'");
     if ($result->num_rows > 0) {
         $user = $result->fetch_assoc();
         if (password_verify($password, $user['password'])) {
@@ -24,5 +24,5 @@ if (isset($_POST[''])) {
 
     $_SESSION['login_error'] = 'Incorrect username or password';
     header("Location: adminlogin.php");
-    exit();
+    exit;
 }
