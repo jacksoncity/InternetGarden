@@ -28,9 +28,9 @@ if (($role ?? '') !== 'admin') {
     <!-- side bar -->
     <div class="sidebar-panel-left">
       <a href="main.php"><img src="assets/logo.png" class="logo" /> </a>
-      <img src="assets/starsgrey.gif" class="divider-panel" />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
       <h2 class="sidebar-title">Navigation</h2>
-      <img src="assets/starsgrey.gif" class="divider-panel" />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
       <ul class="sidebar-list">
         <li><a href="main.php">Home</a></li>
         <li><a href="videogames.php">Video Games</a></li>
@@ -45,7 +45,7 @@ if (($role ?? '') !== 'admin') {
           </form>
         <?php endif; ?>
       </ul>
-      <img src="assets/starsgrey.gif" class="divider-panel" />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
       <img
         src="assets/home-accents/gardenbutton.gif"
         style="padding-top: 20px" />
@@ -53,29 +53,24 @@ if (($role ?? '') !== 'admin') {
     <div class="main-content-panel">
       <!-- Header of the main home landing page-->
       <div class="header-panel">
-        <h1 class="titleHOME">Admin Panel</h1>
+        <h1 class="titleADMIN"><span>Admin Panel</span></h1>
         <?php if ($username): ?>
           <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
             <?= $role ? ' (' . htmlspecialchars($role) . ')' : '' ?></p>
         <?php endif; ?>
       </div>
-
+      <div class="introADMIN">
+        <h2>Total User Information:</h2>
+        <div class="info-display-total">
+          <p class="introHOME-text"><u>Total Users: </u></p>
+          <p class="introHOME-text"><u>Active Users: </u></p>
+        </div>
+      </div>
     </div>
     <div class="sidebar-panel-right">
-      <img src="assets/starsgrey.gif" class="divider-projects" />
-      <div class="btn-home">
-        <img src="assets/projects-accents/gardenbutton.gif" class="btn-att" />
-        <img src="assets/projects-accents/gimp.gif" class="btn-att" />
-
-        <img src="assets/projects-accents/github.gif" class="btn-att" />
-        <img src="assets/projects-accents/htmldream.gif" class="btn-att" />
-
-        <img src="assets/projects-accents/now.jpg" class="btn-att" />
-        <img src="assets/projects-accents/vscbutton.gif" class="btn-att" />
-      </div>
-      <img src="assets/starsgrey.gif" class="divider-projects" />
-      <div class="blinkies-home"></div>
-      <img src="assets/starsgrey.gif" class="divider-projects" />
+      <!-- <img src="assets/dividerresources.gif" class="divider-resources" />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
+      <img src="assets/dividerresources.gif" class="divider-resources" /> -->
     </div>
   </div>
 </body>

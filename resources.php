@@ -19,11 +19,11 @@ $role = $_SESSION['role'] ?? '';
     <!-- side bar -->
     <div class="sidebar-resources-left">
       <a href="main.php"><img src="assets/logo.png" class="logo" /> </a>
-      <hr />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
       <h2 class="sidebar-title">Navigation</h2>
-      <hr />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
       <ul class="sidebar-list">
-        <li><a href="main.html">Home</a></li>
+        <li><a href="main.php">Home</a></li>
         <li><a href="videogames.php">Video Games</a></li>
         <li><a href="music.php">Music</a></li>
         <li><a href="projects.php">Projects</a></li>
@@ -36,7 +36,7 @@ $role = $_SESSION['role'] ?? '';
           </form>
         <?php endif; ?>
       </ul>
-      <hr />
+      <img src="assets/dividerresources.gif" class="divider-resources" />
       <img
         src="assets/home-accents/gardenbutton.gif"
         style="padding-top: 20px" />

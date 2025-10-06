@@ -34,6 +34,7 @@ $role = $_SESSION['role'] ?? '';
                         <button type="submit" class="logout-btn">Logout</button>
                     </form>
                 <?php endif; ?>
+
             </ul>
             <img src="assets/glitterblue.gif" class="divider-home" />
             <img
