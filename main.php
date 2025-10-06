@@ -29,6 +29,11 @@ $role = $_SESSION['role'] ?? '';
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="resources.php">Resources</a></li>
                 <li><a href="about.php">About Me</a></li>
+                <?php if ($username): ?>
+                    <form action="logout.php" method="post" style="display:inline">
+                        <button type="submit" class="logout-btn">Logout</button>
+                    </form>
+                <?php endif; ?>
             </ul>
             <img src="assets/glitterblue.gif" class="divider-home" />
             <img
@@ -38,6 +43,7 @@ $role = $_SESSION['role'] ?? '';
         <!-- Header of the main home landing page-->
         <div class="main-content-home">
             <div class="header">
+
                 <h1 class="titleHOME">Welcome to Jackson's Internet Garden</h1>
                 <?php if ($username): ?>
                     <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
@@ -48,7 +54,6 @@ $role = $_SESSION['role'] ?? '';
                     Where I let my creative outlets grow.
                 </p>
             </div>
-
             <div class="ufo-sep">
                 <img src="assets/home-accents/ufo.gif" class="ufo" />
             </div>
@@ -153,6 +158,13 @@ $role = $_SESSION['role'] ?? '';
             <a href="adminlogin.php">
                 <p class="admin-login">Admin Login</p>
             </a>
+            <?php if ($role === 'admin'): ?>
+                <a href="admin-page.php" class="admin-login">Admin Dashboard</a>
+            <?php endif; ?>
+
+            <?php if (!empty($role)): ?>
+                <a href="admin-page.php" class="admin-login">Admin Dashboard</a>
+            <?php endif; ?>
         </div>
     </div>
 </body>

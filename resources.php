@@ -30,6 +30,11 @@ $role = $_SESSION['role'] ?? '';
         <li><a href="blog.php">Blog</a></li>
         <li><a href="resources.php">Resources</a></li>
         <li><a href="about.php">About Me</a></li>
+        <?php if ($username): ?>
+          <form action="logout.php" method="post" style="display:inline">
+            <button type="submit" class="logout-btn">Logout</button>
+          </form>
+        <?php endif; ?>
       </ul>
       <hr />
       <img
@@ -40,6 +45,10 @@ $role = $_SESSION['role'] ?? '';
       <!-- Header of the main home landing page-->
       <div class="header">
         <h1 class="titleHOME">Resources</h1>
+        <?php if ($username): ?>
+          <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
+            <?= $role ? ' (' . htmlspecialchars($role) . ')' : '' ?></p>
+        <?php endif; ?>
         <p class="flvrHOME">
           A collection of links from where I got assets and inspiration from
         </p>

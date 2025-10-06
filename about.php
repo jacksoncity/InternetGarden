@@ -30,6 +30,11 @@ $role = $_SESSION['role'] ?? '';
         <li><a href="blog.php">Blog</a></li>
         <li><a href="resources.php">Resources</a></li>
         <li><a href="about.php">About Me</a></li>
+        <?php if ($username): ?>
+          <form action="logout.php" method="post" style="display:inline">
+            <button type="submit" class="logout-btn">Logout</button>
+          </form>
+        <?php endif; ?>
       </ul>
       <img src="assets/dividerabout.gif" class="divider-about" />
       <img
@@ -40,6 +45,10 @@ $role = $_SESSION['role'] ?? '';
       <!-- Header of the main home landing page-->
       <div class="header-about">
         <h1 class="titleABOUT"><span>About Me</span></h1>
+        <?php if ($username): ?>
+          <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
+            <?= $role ? ' (' . htmlspecialchars($role) . ')' : '' ?></p>
+        <?php endif; ?>
         <p class="flvrABOUT">
           <span> Curious about the creator of this website?</span>
         </p>
