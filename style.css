@@ -724,8 +724,17 @@ body.music {
 
 /*MUSIC RECENT POSTS*/
 
+.music-img-post {
+  max-width: 50%;
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  float: left;
+}
+
 .flex-items-music:nth-child(1) {
   display: block;
+  float: right;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;

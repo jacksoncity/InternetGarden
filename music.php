@@ -95,19 +95,29 @@ $role = $_SESSION['role'] ?? '';
         <h2 class="introHOME-title">Recent Music Posts</h2>
         <div class="recent-post-list">
           <div class="flex-items-music">
-            <h2 style="color: white">Test 1</h2>
+            <img src="assets/music-posts/covers/dummy.jpg" alt="Album Art" class="music-img-post" alt="Album Art">
+            <h2 style="color: white">Dummy - Dumb EPs (2025)</h2>
+            <h4>Alternative/Indie</h4>
           </div>
           <div class="flex-items-music">
-            <h2 style="color: white">Test 2</h2>
+            <img src="assets/music-posts/covers/sword2.jpg" alt="Album Art" class="music-img-post" alt="Album Art" class="music-img-post">
+            <h2 style="color: white">Sword II - Spirit World Tour (2023)</h2>
+            <h4>Alternative/Indie</h4>
           </div>
           <div class="flex-items-music">
-            <h2 style="color: white">Test 3</h2>
+            <img src="assets/music-posts/covers/moisturizer.jpg" alt="Album Art" class="music-img-post" alt="Album Art">
+            <h2 style="color: white">Wet Leg - Moisturizer (2025)</h2>
+            <h4>Alternative/Indie</h4>
           </div>
           <div class="flex-items-music">
-            <h2 style="color: white">Test 4</h2>
+            <img src="assets/music-posts/covers/rocket.jpg" alt="Album Art" class="music-img-post" alt="Album Art">
+            <h2 style="color: white">Rocket - R is for Rocket (2025)</h2>
+            <h4>Alternative/Indie</h4>
           </div>
           <div class="flex-items-music">
-            <h2 style="color: white">Test 5</h2>
+            <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Album Art" class="music-img-post">
+            <h2 style="color: white">Geese - Getting Killed (2025)</h2>
+            <h4>Alternative/Indie</h4>
           </div>
         </div>
       </div>
