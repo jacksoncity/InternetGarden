@@ -99,7 +99,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
 
             <div class="recents-home">
-                <h2 class="introHOME-title">Recent Web Posts</h2>
+                <h2 class="introHOME-title">Featured Web Posts</h2>
                 <div class="recent-post-list">
                     <div class="flex-items">
                         <h2 style="color: white">Test 1</h2>

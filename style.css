@@ -732,9 +732,14 @@ body.music {
   float: left;
 }
 
+.music-preview-text {
+  text-align: center;
+  padding: 5px;
+  overflow-x: hidden;
+}
+
 .flex-items-music:nth-child(1) {
   display: block;
-  float: right;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1412,4 +1417,35 @@ body.panel {
   height: 25px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+/* IN DEV SCREEN STUFF*/
+body.dev {
+  display: block;
+  flex-direction: column;
+  background-image: url("assets/adminbg.gif");
+  font-family: vcr;
+  cursor: url("assets/cursors/fire.gif"), auto;
+}
+
+.main-content-dev {
+  text-align: center;
+}
+
+.logo-dev {
+  border-radius: 40px;
+  margin-top: 10%;
+  padding: 15px;
+}
+
+.logo-dev-bollard {
+  padding: 15px;
+  height: 200px;
+  width: 250px;
+}
+
+.header-dev {
+  text-align: center;
+  color: black;
+  font-family: vcr;
 }
