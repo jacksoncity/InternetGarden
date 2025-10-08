@@ -37,6 +37,7 @@ $role = $_SESSION['role'] ?? '';
         <?php endif; ?>
       </ul>
       <img src="assets/dividervg.gif" class="divider-vg" />
+
       <img
         src="assets/home-accents/gardenbutton.gif"
         style="padding-top: 20px" />
@@ -57,48 +58,102 @@ $role = $_SESSION['role'] ?? '';
       <div class="currently-playing-vg">
         <div class="curr-title">
           <h2 class="introHOME-title">What I'm Currently Playing:</h2>
+
           <!--WHAT IM PLAYING UPDATE TIME-->
-          <p style="color: white">as of July 10th, 2025</p>
+          <p style="color: white">as of October 8th, 2025</p>
         </div>
 
         <div class="album-container">
           <div class="pic-display">
-            <img
-              src="assets/vg-accents/boxart/p5tact.jpg"
-              class="curr-playing-img" />
-            <p>Persona 5: Tactica</p>
+            <a href="">
+              <img
+                src="assets/vg-accents/boxart/Rocket_League_cover.png"
+                class="curr-playing-img" />
+            </a>
+            <p>Rocket League</p>
           </div>
           <div class="pic-display">
-            <img
-              src="assets/vg-accents/boxart/mgs.jpg"
-              class="curr-playing-img" />
-            <p>Metal Gear Solid</p>
+            <a href="">
+              <img
+                src="assets/vg-accents/boxart/bf6.jpg"
+                class="curr-playing-img" />
+            </a>
+            <p>Battlefield 6</p>
           </div>
           <div class="pic-display">
-            <img
-              src="assets/vg-accents/boxart/raidou.jpg"
-              class="curr-playing-img" />
+            <a href="">
+              <img
+                src="assets/vg-accents/boxart/raidou.jpg"
+                class="curr-playing-img" />
+            </a>
             <p>RAIDOU Remastered: The Mystery of the Soulless Army</p>
           </div>
         </div>
       </div>
+
+      <!-- VIDEOGAME BOARD POSTS-->
       <div class="vg-posts">
         <h2 class="introHOME-title">Recent Videogame Posts</h2>
         <div class="recent-post-list">
           <div class="flex-items-vg">
-            <h2 style="color: white">Test 1</h2>
+            <a href="">
+              <img src="assets/vg-accents/boxart/smt5v.jpg" alt="Cover Art" class="vg-img-post">
+            </a>
+            <div class="vg-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Shin Megami Tensei 5: Vengeance</h2>
+              </a>
+              <h4>Atlus</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-vg">
-            <h2 style="color: white">Test 2</h2>
+            <a href="">
+              <img src="assets/vg-accents/boxart/Cyberpunk_2077_box_art.jpg" alt="Cover Art" class="vg-img-post">
+            </a>
+            <div class="vg-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Cyberpunk 2077 (2020)</h2>
+              </a>
+              <h4>CD PROJEKT RED</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-vg">
-            <h2 style="color: white">Test 3</h2>
+            <a href="">
+              <img src="assets/vg-accents/boxart/boi.jpg" alt="Cover Art" class="vg-img-post">
+            </a>
+            <div class="vg-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">The Binding of Isaac: Rebirth (2014)</h2>
+              </a>
+              <h4>Nicalis Inc</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-vg">
-            <h2 style="color: white">Test 4</h2>
+            <a href="">
+              <img src="assets/vg-accents/boxart/nms.jpg" alt="Cover Art" class="vg-img-post">
+            </a>
+            <div class="vg-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">No Mans Sky (2016)</h2>
+              </a>
+              <h4>Hello Games</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-vg">
-            <h2 style="color: white">Test 5</h2>
+            <a href="">
+              <img src="assets/vg-accents/boxart/skate.jpg" alt="Cover Art" class="vg-img-post">
+            </a>
+            <div class="vg-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Skate (2025)</h2>
+              </a>
+              <h4>EA Games</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
         </div>
       </div>

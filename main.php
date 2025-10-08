@@ -37,9 +37,11 @@ $role = $_SESSION['role'] ?? '';
 
             </ul>
             <img src="assets/glitterblue.gif" class="divider-home" />
-            <img
-                src="assets/home-accents/gardenbutton.gif"
-                style="padding-top: 20px" />
+            <a href="">
+                <img
+                    src="assets/home-accents/gardenbutton.gif"
+                    class="garden-button" />
+            </a>
         </div>
         <!-- Header of the main home landing page-->
         <div class="main-content-home">

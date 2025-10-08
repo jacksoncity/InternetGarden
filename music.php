@@ -59,7 +59,7 @@ $role = $_SESSION['role'] ?? '';
         <div class="curr-title">
           <h2 class="introHOME-title">What I'm Currently Listening To:</h2>
           <!--WHAT IM LISTENING TO UPDATE TIME-->
-          <p style="color: white">as of July 10th, 2025</p>
+          <p style="color: white; color: #e5e764ff">as of July 10th, 2025</p>
         </div>
 
         <div class="album-container">
@@ -91,38 +91,75 @@ $role = $_SESSION['role'] ?? '';
           </div>
         </div>
       </div>
+
+      <!-- MUSIC BOARD POSTS-->
       <div class="music-posts">
         <h2 class="introHOME-title">Recent Music Posts</h2>
+        <!-- START LIST OF BOARD POSTS -->
         <div class="recent-post-list">
+          <!-- INDIVIDUAL BOARD POST -->
           <div class="flex-items-music">
-            <img src="assets/music-posts/covers/dummy.jpg" alt="Album Art" class="music-img-post" alt="Album Art">
-            <h2 style="color: white">Dummy - Dumb EPs (2025)</h2>
-            <h4>Alternative/Indie</h4>
-            <p class="music-preview-text"></p>
+            <!--ALBUM ART -->
+            <a href="">
+              <img src="assets/music-posts/covers/dummy.jpg" alt="Album Art" class="music-img-post">
+            </a>
+            <!-- TEXT ELEMENTS -->
+            <div class="music-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Dummy - Dumb EPs (2025)</h2>
+              </a>
+              <h4 style="color: #c5c762ff">Alternative/Indie</h4>
+              <p class="preview-text"></p>
+            </div>
+          </div>
+          <!-- REPEAT -->
+          <div class="flex-items-music">
+            <a href="">
+              <img src="assets/music-posts/covers/sword2.jpg" alt="Album Art" class="music-img-post">
+            </a>
+            <div class="music-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Sword II - Spirit World Tour (2023)</h2>
+              </a>
+              <h4 style="color: #c5c762ff">Alternative/Indie</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-music">
-            <img src="assets/music-posts/covers/sword2.jpg" alt="Album Art" class="music-img-post" alt="Album Art" class="music-img-post">
-            <h2 style="color: white">Sword II - Spirit World Tour (2023)</h2>
-            <h4>Alternative/Indie</h4>
-            <p class="music-preview-text"></p>
+            <a href="">
+              <img src="assets/music-posts/covers/moisturizer.jpg" alt="Album Art" class="music-img-post">
+            </a>
+            <div class="music-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Wet Leg - Moisturizer (2025)</h2>
+              </a>
+              <h4 style="color: #c5c762ff">Alternative/Indie</h4>
+              <p></p>
+            </div>
           </div>
           <div class="flex-items-music">
-            <img src="assets/music-posts/covers/moisturizer.jpg" alt="Album Art" class="music-img-post" alt="Album Art">
-            <h2 style="color: white">Wet Leg - Moisturizer (2025)</h2>
-            <h4>Alternative/Indie</h4>
-            <p class="music-preview-text"></p>
+            <a href="">
+              <img src="assets/music-posts/covers/rocket.jpg" alt="Album Art" class="music-img-post">
+            </a>
+            <div class="music-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Rocket - R is for Rocket (2025)</h2>
+              </a>
+              <h4 style="color: #c5c762ff">Alternative/Indie</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-music">
-            <img src="assets/music-posts/covers/rocket.jpg" alt="Album Art" class="music-img-post" alt="Album Art">
-            <h2 style="color: white">Rocket - R is for Rocket (2025)</h2>
-            <h4>Alternative/Indie</h4>
-            <p class="music-preview-text"></p>
-          </div>
-          <div class="flex-items-music">
-            <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Album Art" class="music-img-post">
-            <h2 style="color: white">Geese - Getting Killed (2025)</h2>
-            <h4>Alternative/Indie</h4>
-            <p class="music-preview-text"></p>
+            <a href="">
+              <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Album Art" class="music-img-post">
+            </a>
+            <div class="music-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Geese - Getting Killed (2025)</h2>
+              </a>
+              <h4 style="color: #c5c762ff">Alternative/Indie</h4>
+              <p class="preview-text"></p>
+            </div>
           </div>
         </div>
       </div>

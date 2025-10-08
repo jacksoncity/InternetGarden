@@ -69,6 +69,16 @@ a:hover {
   padding: 10px;
 }
 
+.garden-button {
+  padding: 20px;
+}
+
+.garden-button:hover {
+  height: 34px;
+  width: 100px;
+  padding: 16px;
+}
+
 .sidebar-home-left {
   opacity: 0.9;
   font-family: vcr;
@@ -122,6 +132,12 @@ a:hover {
   padding: 20px;
   border-radius: 40px;
   height: 150px;
+}
+
+.logo:hover {
+  padding: 15px;
+  border-radius: 40px;
+  height: 160px;
 }
 
 .sidebar-list {
@@ -453,7 +469,7 @@ body.videogames {
 
 .curr-playing-img {
   height: 350px;
-  width: 250px;
+  width: 230px;
   padding: 20px;
   border: 4px solid transparent;
   border-image: url(assets/border-vg.gif) 10 round;
@@ -510,10 +526,36 @@ body.videogames {
   padding: 15px;
 }
 
+.vg-img-post {
+  width: 200px;
+  height: 280px;
+  padding: 15px;
+}
+
+.vg-text-ele {
+  flex: 1;
+  min-width: 0;
+}
+
+.vg-text-ele h4,
+.vg-text-ele h2 {
+  margin: 0 0 1rem 0; /* Add spacing between text elements */
+}
+
+.vg-text-ele p {
+  text-align: center;
+  max-width: 700px;
+  padding-left: 30px;
+  padding: 15px;
+  margin: 0 0 1rem 0; /* Add spacing between text elements */
+  overflow-wrap: break-word;
+}
+
 /*VIDEOGAME RECENT POSTS*/
 
 .flex-items-vg:nth-child(1) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -521,7 +563,7 @@ body.videogames {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-vg.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -529,7 +571,8 @@ body.videogames {
   overflow: hidden;
 }
 .flex-items-vg:nth-child(2) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -537,7 +580,7 @@ body.videogames {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-vg.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -545,7 +588,8 @@ body.videogames {
   overflow: hidden;
 }
 .flex-items-vg:nth-child(3) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -553,7 +597,7 @@ body.videogames {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-vg.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -561,7 +605,8 @@ body.videogames {
   overflow: hidden;
 }
 .flex-items-vg:nth-child(4) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -569,7 +614,7 @@ body.videogames {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-vg.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -577,7 +622,8 @@ body.videogames {
   overflow: hidden;
 }
 .flex-items-vg:nth-child(5) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -585,7 +631,7 @@ body.videogames {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-vg.gif) 10 round;
   margin-bottom: 25px;
   margin-top: 25px;
@@ -672,6 +718,7 @@ body.music {
 
 .pic-display {
   display: flex;
+  font-size: 18px;
   flex-direction: column;
   align-items: center;
   max-width: 30%;
@@ -725,21 +772,32 @@ body.music {
 /*MUSIC RECENT POSTS*/
 
 .music-img-post {
-  max-width: 50%;
-  width: 250px;
-  height: 250px;
-  padding: 15px;
-  float: left;
+  width: 200px;
+  padding: 20px;
 }
 
-.music-preview-text {
+.music-text-ele {
+  flex: 1;
+  min-width: 0;
+}
+
+.music-text-ele h4,
+.music-text-ele h2 {
+  margin: 0 0 1rem 0; /* Add spacing between text elements */
+}
+
+.music-text-ele p {
   text-align: center;
-  padding: 5px;
-  overflow-x: hidden;
+  max-width: 700px;
+  padding-left: 30px;
+  padding: 15px;
+  margin: 0 0 1rem 0;
+  overflow-wrap: break-word;
 }
 
 .flex-items-music:nth-child(1) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -747,7 +805,7 @@ body.music {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-music.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -755,7 +813,8 @@ body.music {
   overflow: hidden;
 }
 .flex-items-music:nth-child(2) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -763,7 +822,7 @@ body.music {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-music.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -771,7 +830,8 @@ body.music {
   overflow: hidden;
 }
 .flex-items-music:nth-child(3) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -779,7 +839,7 @@ body.music {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-music.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -787,7 +847,8 @@ body.music {
   overflow: hidden;
 }
 .flex-items-music:nth-child(4) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -795,7 +856,7 @@ body.music {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-music.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -803,7 +864,8 @@ body.music {
   overflow: hidden;
 }
 .flex-items-music:nth-child(5) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -811,7 +873,7 @@ body.music {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-music.gif) 10 round;
   margin-bottom: 25px;
   margin-top: 25px;
