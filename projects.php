@@ -63,10 +63,14 @@ $role = $_SESSION['role'] ?? '';
             <a
               href="indev.php">
               <img
-                src="assets/music-accents/music-covers/"
+                src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif"
                 class="curr-project"
-                alt="project thumbnail" /></a>
-            <p>2005 EMac Restoration</p>
+                alt="project thumbnail" />
+            </a>
+            <a
+              href="indev.php" style="color: white;">
+              <p>2005 EMac Restoration</p>
+            </a>
           </div>
         </div>
       </div>
@@ -76,7 +80,7 @@ $role = $_SESSION['role'] ?? '';
         <div class="recent-post-list">
           <div class="flex-items-pro">
             <a href="indev.php">
-              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php">
@@ -87,7 +91,7 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <div class="flex-items-pro">
             <a href="indev.php">
-              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php">
@@ -98,7 +102,7 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <div class="flex-items-pro">
             <a href="indev.php">
-              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php">
@@ -109,7 +113,7 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <div class="flex-items-pro">
             <a href="indev.php">
-              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php">
@@ -120,7 +124,7 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <div class="flex-items-pro">
             <a href="indev.php">
-              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php">

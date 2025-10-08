@@ -53,27 +53,91 @@ $role = $_SESSION['role'] ?? '';
           Read about things that I feel like writing about
         </p>
       </div>
+
+      <div class="featured-blog-post">
+        <div class="curr-title">
+          <h2 class="introHOME-title">Featured Blog Post:</h2>
+        </div>
+
+        <div class="blog-container">
+          <div class="flex-items-blog">
+            <a href="indev.php">
+              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline; text-align: center;">Placeholder Title</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="blog-posts">
         <h2 class="introHOME-title">Recent Blog Posts</h2>
         <div class="recent-post-list">
+
           <div class="flex-items-blog">
-            <h2 style="color: white">Test 1</h2>
+            <a href="indev.php">
+              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
+          </div>
+
+          <div class="flex-items-blog">
+            <!-- <a href="indev.php">
+              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
+            </a> -->
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-blog">
-            <h2 style="color: white">Test 2</h2>
+            <a href="indev.php">
+              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-blog">
-            <h2 style="color: white">Test 3</h2>
+            <!-- <a href="indev.php">
+              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
+            </a> -->
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-blog">
-            <h2 style="color: white">Test 4</h2>
-          </div>
-          <div class="flex-items-blog">
-            <h2 style="color: white">Test 5</h2>
+            <a href="indev.php">
+              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="sidebar-blog-right">
       <img src="assets/blog-accents/computer.gif" class="blog-logo" />
       <img src="assets/dividerblog.gif" class="divider-blog-right" />
