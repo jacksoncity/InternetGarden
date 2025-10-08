@@ -716,7 +716,7 @@ body.music {
   gap: 20px;
 }
 
-.pic-display {
+.music-display {
   display: flex;
   font-size: 18px;
   flex-direction: column;
@@ -942,19 +942,32 @@ body.projects {
 
 .currently-working-project {
   color: white;
-  text-align: center;
+  margin: 0 auto;
   background-color: rgb(176 176 176 / 0.7);
   border: 8px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   padding: 15px;
-  display: block;
 }
 
-.curr-working {
+.curr-project {
   height: 250px;
   width: 250px;
-  padding: 20px;
-  padding-bottom: 40px;
+  padding: 25px;
+  border: 4px solid transparent;
+  border-image: url(assets/border-projects.gif) 10 round;
+}
+
+.project-container {
+  display: flex;
+  align-content: space-between;
+}
+
+.project-display {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
 
 .header-project {
@@ -984,8 +997,31 @@ body.projects {
 
 /*PROJECT RECENT POSTS*/
 
+.project-img-post {
+  padding: 20px;
+}
+
+.project-text-ele {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-text-ele h2 {
+  margin: 0 0 1rem 0; /* Add spacing between text elements */
+}
+
+.project-text-ele p {
+  text-align: center;
+  max-width: 700px;
+  padding-left: 30px;
+  padding: 15px;
+  margin: 0 0 1rem 0;
+  overflow-wrap: break-word;
+}
+
 .flex-items-pro:nth-child(1) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -993,7 +1029,7 @@ body.projects {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -1001,7 +1037,8 @@ body.projects {
   overflow: hidden;
 }
 .flex-items-pro:nth-child(2) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1009,7 +1046,7 @@ body.projects {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -1017,7 +1054,8 @@ body.projects {
   overflow: hidden;
 }
 .flex-items-pro:nth-child(3) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1025,7 +1063,7 @@ body.projects {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -1033,7 +1071,8 @@ body.projects {
   overflow: hidden;
 }
 .flex-items-pro:nth-child(4) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1041,7 +1080,7 @@ body.projects {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -1049,7 +1088,8 @@ body.projects {
   overflow: hidden;
 }
 .flex-items-pro:nth-child(5) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1057,7 +1097,7 @@ body.projects {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-projects.gif) 10 round;
   margin-bottom: 25px;
   margin-top: 25px;

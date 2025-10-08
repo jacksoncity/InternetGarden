@@ -39,7 +39,7 @@ $role = $_SESSION['role'] ?? '';
       <img src="assets/planets.png" class="divider-music" />
       <img
         src="assets/home-accents/gardenbutton.gif"
-        style="padding-top: 20px" />
+        class="garden-button" />
     </div>
 
     <div class="main-content-music">
@@ -63,7 +63,7 @@ $role = $_SESSION['role'] ?? '';
         </div>
 
         <div class="album-container">
-          <div class="pic-display">
+          <div class="music-display">
             <a
               href="https://open.spotify.com/album/7dJPDPUi94jA91VxG4vZb3?si=riXerinhT9i32wcOoHzMfA">
               <img
@@ -72,7 +72,7 @@ $role = $_SESSION['role'] ?? '';
             <p>Men I Trust - Equus Caballus</p>
           </div>
 
-          <div class="pic-display">
+          <div class="music-display">
             <a
               href="https://open.spotify.com/album/4lVMhVIgEdxIoTu7gS7CoT?si=iYgUTWPoT3CPFAjDgoigmw">
               <img
@@ -81,7 +81,7 @@ $role = $_SESSION['role'] ?? '';
             <p>feeble little horse - Girl with Fish</p>
           </div>
 
-          <div class="pic-display">
+          <div class="music-display">
             <a
               href="https://open.spotify.com/album/6ChJPrYiWkcJeEWIDKDE48?si=eS-H6GgGRiSJ7Bp99Jlk6w">
               <img
@@ -100,7 +100,7 @@ $role = $_SESSION['role'] ?? '';
           <!-- INDIVIDUAL BOARD POST -->
           <div class="flex-items-music">
             <!--ALBUM ART -->
-            <a href="">
+            <a href="indev.php">
               <img src="assets/music-posts/covers/dummy.jpg" alt="Album Art" class="music-img-post">
             </a>
             <!-- TEXT ELEMENTS -->
@@ -114,7 +114,7 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <!-- REPEAT -->
           <div class="flex-items-music">
-            <a href="">
+            <a href="indev.php">
               <img src="assets/music-posts/covers/sword2.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
@@ -126,7 +126,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="">
+            <a href="indev.php">
               <img src="assets/music-posts/covers/moisturizer.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
@@ -138,7 +138,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="">
+            <a href="indev.php">
               <img src="assets/music-posts/covers/rocket.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
@@ -150,7 +150,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="">
+            <a href="indev.php">
               <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">

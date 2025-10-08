@@ -39,7 +39,7 @@ $role = $_SESSION['role'] ?? '';
       <img src="assets/starsgrey.gif" class="divider-projects" />
       <img
         src="assets/home-accents/gardenbutton.gif"
-        style="padding-top: 20px" />
+        class="garden-button" />
     </div>
     <div class="main-content-project">
       <!-- Header of the main home landing page-->
@@ -54,34 +54,85 @@ $role = $_SESSION['role'] ?? '';
         </p>
       </div>
       <div class="currently-working-project">
-        <h2 class="introHOME-title">Currently Showcased Project:</h2>
-        <img
-          src="assets/projects-accents/underconstruction.gif"
-          style="padding: 25px" />
-        <!--WHAT IM WORKING ON UPDATE TIME-->
-        <p style="color: white">as of July 10th, 2025</p>
+        <div class="curr-title">
+          <h2 class="introHOME-title">Currently Showcased Project:</h2>
+        </div>
+
+        <div class="project-container">
+          <div class="project-display">
+            <a
+              href="indev.php">
+              <img
+                src="assets/music-accents/music-covers/"
+                class="curr-project"
+                alt="project thumbnail" /></a>
+            <p>2005 EMac Restoration</p>
+          </div>
+        </div>
       </div>
+
       <div class="project-posts">
         <h2 class="introHOME-title">Recent Project Posts</h2>
         <div class="recent-post-list">
           <div class="flex-items-pro">
-            <h2 style="color: white">Test 1</h2>
+            <a href="indev.php">
+              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Collage of Images I Like</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-pro">
-            <h2 style="color: white">Test 2</h2>
+            <a href="indev.php">
+              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Begining to Learn Basic Electronics</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-pro">
-            <h2 style="color: white">Test 3</h2>
+            <a href="indev.php">
+              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Switch to Physical Media</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-pro">
-            <h2 style="color: white">Test 4</h2>
+            <a href="indev.php">
+              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">Development of this Website</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
           <div class="flex-items-pro">
-            <h2 style="color: white">Test 5</h2>
+            <a href="indev.php">
+              <img src="assets/projects-posts/" alt="Project Thumbnail" class="project-img-post">
+            </a>
+            <div class="project-text-ele">
+              <a href="indev.php">
+                <h2 style="color: white; text-decoration: underline;">2005 Apple EMac Restoration</h2>
+              </a>
+              <p class="preview-text"></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="sidebar-projects-right">
       <img src="assets/starsgrey.gif" class="divider-projects" />
       <div class="btn-home">
