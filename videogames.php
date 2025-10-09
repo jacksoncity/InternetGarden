@@ -65,7 +65,7 @@ $role = $_SESSION['role'] ?? '';
 
         <div class="album-container">
           <div class="pic-display">
-            <a href="indev.php">
+            <a href="https://store.epicgames.com/en-US/p/rocket-league">
               <img
                 src="assets/vg-accents/boxart/Rocket_League_cover.png"
                 class="curr-playing-img" />
@@ -73,7 +73,7 @@ $role = $_SESSION['role'] ?? '';
             <p>Rocket League</p>
           </div>
           <div class="pic-display">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/2807960/Battlefield_6/">
               <img
                 src="assets/vg-accents/boxart/bf6.jpg"
                 class="curr-playing-img" />
@@ -81,7 +81,7 @@ $role = $_SESSION['role'] ?? '';
             <p>Battlefield 6</p>
           </div>
           <div class="pic-display">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/2288350/RAIDOU_Remastered_The_Mystery_of_the_Soulless_Army/">
               <img
                 src="assets/vg-accents/boxart/raidou.jpg"
                 class="curr-playing-img" />
@@ -96,7 +96,7 @@ $role = $_SESSION['role'] ?? '';
         <h2 class="introHOME-title">Recent Videogame Posts</h2>
         <div class="recent-post-list">
           <div class="flex-items-vg">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/1875830/Shin_Megami_Tensei_V_Vengeance/">
               <img src="assets/vg-accents/boxart/smt5v.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
@@ -108,7 +108,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/">
               <img src="assets/vg-accents/boxart/Cyberpunk_2077_box_art.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
@@ -120,7 +120,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/">
               <img src="assets/vg-accents/boxart/boi.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
@@ -132,7 +132,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/275850/No_Mans_Sky/">
               <img src="assets/vg-accents/boxart/nms.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
@@ -144,7 +144,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="indev.php">
+            <a href="https://store.steampowered.com/app/3354750/skate/">
               <img src="assets/vg-accents/boxart/skate.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">

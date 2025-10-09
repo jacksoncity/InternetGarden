@@ -104,19 +104,64 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="introHOME-title">Featured Web Posts</h2>
                 <div class="recent-post-list">
                     <div class="flex-items">
-                        <h2 style="color: white">Test 1</h2>
+                        <a href="indev.php">
+                            <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Featured Thumbnail" class="music-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php">
+                                <h2 style="color: white; text-decoration: underline;">Test 1</h2>
+                            </a>
+                            <h4 style="color: #c5c762ff">Test flavor text</h4>
+                            <p class="preview-text"></p>
+                        </div>
                     </div>
                     <div class="flex-items">
-                        <h2 style="color: white">Test 2</h2>
+                        <a href="indev.php">
+                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php">
+                                <h2 style="color: white; text-decoration: underline;">Test 2</h2>
+                            </a>
+                            <h4 style="color: #c5c762ff">Test flavor text</h4>
+                            <p class="preview-text"></p>
+                        </div>
                     </div>
                     <div class="flex-items">
-                        <h2 style="color: white">Test 3</h2>
+                        <a href="indev.php">
+                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php">
+                                <h2 style="color: white; text-decoration: underline;">Test 3</h2>
+                            </a>
+                            <h4 style="color: #c5c762ff">Test flavor text</h4>
+                            <p class="preview-text"></p>
+                        </div>
                     </div>
                     <div class="flex-items">
-                        <h2 style="color: white">Test 4</h2>
+                        <a href="indev.php">
+                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php">
+                                <h2 style="color: white; text-decoration: underline;">Test 4</h2>
+                            </a>
+                            <h4 style="color: #c5c762ff">Test flavor text</h4>
+                            <p class="preview-text"></p>
+                        </div>
                     </div>
                     <div class="flex-items">
-                        <h2 style="color: white">Test 5</h2>
+                        <a href="indev.php">
+                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php">
+                                <h2 style="color: white; text-decoration: underline;">Test 5</h2>
+                            </a>
+                            <h4 style="color: #c5c762ff">Test flavor text</h4>
+                            <p class="preview-text"></p>
+                        </div>
                     </div>
                 </div>
             </div>

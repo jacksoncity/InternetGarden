@@ -242,7 +242,8 @@ a:hover {
 /*HOME RECENT POSTS*/
 
 .flex-items:nth-child(1) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -250,7 +251,7 @@ a:hover {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-home.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -259,7 +260,8 @@ a:hover {
 }
 
 .flex-items:nth-child(2) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -267,7 +269,7 @@ a:hover {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-home.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -276,7 +278,8 @@ a:hover {
 }
 
 .flex-items:nth-child(3) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -284,7 +287,7 @@ a:hover {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-home.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -293,7 +296,8 @@ a:hover {
 }
 
 .flex-items:nth-child(4) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -301,7 +305,7 @@ a:hover {
   order: 0;
   padding: 20px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-home.gif) 10 round;
   margin-bottom: 25px;
   max-width: 80%;
@@ -310,7 +314,8 @@ a:hover {
 }
 
 .flex-items:nth-child(5) {
-  display: block;
+  display: flex;
+  align-items: flex-start;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -319,7 +324,7 @@ a:hover {
   padding: 20px;
   border-radius: 10px;
   border-radius: 10px;
-  border: 8px solid transparent;
+  border: 6px solid transparent;
   border-image: url(assets/border-home.gif) 10 round;
   margin-bottom: 25px;
   margin-top: 25px;

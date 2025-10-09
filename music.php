@@ -95,12 +95,13 @@ $role = $_SESSION['role'] ?? '';
       <!-- MUSIC BOARD POSTS-->
       <div class="music-posts">
         <h2 class="introHOME-title">Recent Music Posts</h2>
+        <h4>Click the titles to read more!</h4>
         <!-- START LIST OF BOARD POSTS -->
         <div class="recent-post-list">
           <!-- INDIVIDUAL BOARD POST -->
           <div class="flex-items-music">
             <!--ALBUM ART -->
-            <a href="indev.php">
+            <a href="https://notdummy.bandcamp.com/album/dumb-eps-2">
               <img src="assets/music-posts/covers/dummy.jpg" alt="Album Art" class="music-img-post">
             </a>
             <!-- TEXT ELEMENTS -->
@@ -114,7 +115,7 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <!-- REPEAT -->
           <div class="flex-items-music">
-            <a href="indev.php">
+            <a href="https://swordii.bandcamp.com/album/spirit-world-tour">
               <img src="assets/music-posts/covers/sword2.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
@@ -126,7 +127,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="indev.php">
+            <a href="https://wetleg.bandcamp.com/album/moisturizer">
               <img src="assets/music-posts/covers/moisturizer.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
@@ -142,7 +143,7 @@ $role = $_SESSION['role'] ?? '';
               <img src="assets/music-posts/covers/rocket.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
-              <a href="indev.php">
+              <a href="https://rockettheband.bandcamp.com/album/r-is-for-rocket">
                 <h2 style="color: white; text-decoration: underline;">Rocket - R is for Rocket (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
@@ -150,7 +151,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="indev.php">
+            <a href="https://geesebandnyc.bandcamp.com/album/getting-killed">
               <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
