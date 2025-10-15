@@ -8,7 +8,6 @@ $role = $_SESSION['role'] ?? '';
 
 <head>
     <link rel="stylesheet" href="style.css" />
-    <link rel="javacript" href="script.js" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <title>Jackson's Internet Garden</title>
 </head>
@@ -52,10 +51,11 @@ $role = $_SESSION['role'] ?? '';
                     <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
                         <?= $role ? ' (' . htmlspecialchars($role) . ')' : '' ?></p>
                 <?php endif; ?>
-                <p class="flvrHOME">
-                    The <i>opposite</i> of a portfolio website.<br />
-                    Where You let creativity grow.
-                </p>
+                <div class="wavy-container">
+                    <p class="wavy-text">
+                        The <span>o</span><span>p</span><span>p</span><span>o</span><span>s</span><span>i</span><span>t</span><span>e</span> of a portfolio website.<br />
+                    </p>
+                </div>
             </div>
 
             <div class="ufo-sep">
@@ -222,6 +222,7 @@ $role = $_SESSION['role'] ?? '';
             <?php endif; ?>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
