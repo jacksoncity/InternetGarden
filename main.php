@@ -67,7 +67,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="introHOME-title">"What is an Internet Garden?"</h2>
                 <p class="introHOME-text">
                     Well, that's a good question, Stranger!
-                    <a href="https://jamesg.blog/2024/03/04/internet-gardening">James' Coffee Blog</a>
+                    <a href="https://jamesg.blog/2024/03/04/internet-gardening" target="_blank">James' Coffee Blog</a>
                     first brought this concept on to my radar. The way they describe it
                     is more like an idea, where, while some people take the time and
                     energy to tend to their plants in a garden, they received the
@@ -84,7 +84,7 @@ $role = $_SESSION['role'] ?? '';
                     Garden here, this was something that was important that I tried and
                     portray, because that's the kind of website I would like to visit.
                     It’s a part of the web called the
-                    <a href="https://briankoberlein.com/tech/quiet-web/">Quiet Web</a>,
+                    <a href="https://briankoberlein.com/tech/quiet-web/" target="_blank">Quiet Web</a>,
                     as dubbed by Brian Koberlein. It’s a part of the web that is
                     detached from the external resources. There are no ads, no
                     WordPress, no SEO optimization. I wanted something quiet and
@@ -104,11 +104,11 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="introHOME-title">Featured Web Posts</h2>
                 <div class="recent-post-list">
                     <div class="flex-items">
-                        <a href="indev.php">
+                        <a href="indev.php" target="_blank">
                             <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
-                            <a href="indev.php">
+                            <a href="indev.php" target="_blank">
                                 <h2 style="color: white; text-decoration: underline;">Test 1</h2>
                             </a>
                             <h4 style="color: #c5c762ff">Test flavor text</h4>
@@ -116,11 +116,11 @@ $role = $_SESSION['role'] ?? '';
                         </div>
                     </div>
                     <div class="flex-items">
-                        <a href="indev.php">
+                        <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
-                            <a href="indev.php">
+                            <a href="indev.php" target="_blank">
                                 <h2 style="color: white; text-decoration: underline;">Test 2</h2>
                             </a>
                             <h4 style="color: #c5c762ff">Test flavor text</h4>
@@ -128,11 +128,11 @@ $role = $_SESSION['role'] ?? '';
                         </div>
                     </div>
                     <div class="flex-items">
-                        <a href="indev.php">
+                        <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
-                            <a href="indev.php">
+                            <a href="indev.php" target="_blank">
                                 <h2 style="color: white; text-decoration: underline;">Test 3</h2>
                             </a>
                             <h4 style="color: #c5c762ff">Test flavor text</h4>
@@ -140,11 +140,11 @@ $role = $_SESSION['role'] ?? '';
                         </div>
                     </div>
                     <div class="flex-items">
-                        <a href="indev.php">
+                        <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
-                            <a href="indev.php">
+                            <a href="indev.php" target="_blank">
                                 <h2 style="color: white; text-decoration: underline;">Test 4</h2>
                             </a>
                             <h4 style="color: #c5c762ff">Test flavor text</h4>
@@ -152,11 +152,11 @@ $role = $_SESSION['role'] ?? '';
                         </div>
                     </div>
                     <div class="flex-items">
-                        <a href="indev.php">
+                        <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
-                            <a href="indev.php">
+                            <a href="indev.php" target="_blank">
                                 <h2 style="color: white; text-decoration: underline;">Test 5</h2>
                             </a>
                             <h4 style="color: #c5c762ff">Test flavor text</h4>
@@ -174,7 +174,7 @@ $role = $_SESSION['role'] ?? '';
                 <img src="assets/home-accents/miku.gif" class="btn-att" />
 
                 <img src="assets/home-accents/tiredalien2.gif" class="btn-att" />
-                <a href="https://archive.org/"><img src="assets/home-accents/preserve.gif" class="btn-att" /></a>
+                <a href="https://archive.org/" target="_blank"><img src="assets/home-accents/preserve.gif" class="btn-att-link" /></a>
 
                 <img src="assets/home-accents/dumbass.gif" class="btn-att" />
                 <img src="assets/home-accents/planetb.gif" class="btn-att" />

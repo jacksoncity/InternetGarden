@@ -65,7 +65,7 @@ $role = $_SESSION['role'] ?? '';
 
         <div class="album-container">
           <div class="pic-display">
-            <a href="https://store.epicgames.com/en-US/p/rocket-league">
+            <a href="https://store.epicgames.com/en-US/p/rocket-league" target="_blank">
               <img
                 src="assets/vg-accents/boxart/Rocket_League_cover.png"
                 class="curr-playing-img" />
@@ -73,7 +73,7 @@ $role = $_SESSION['role'] ?? '';
             <p>Rocket League</p>
           </div>
           <div class="pic-display">
-            <a href="https://store.steampowered.com/app/2807960/Battlefield_6/">
+            <a href="https://store.steampowered.com/app/2807960/Battlefield_6/" target="_blank">
               <img
                 src="assets/vg-accents/boxart/bf6.jpg"
                 class="curr-playing-img" />
@@ -81,12 +81,12 @@ $role = $_SESSION['role'] ?? '';
             <p>Battlefield 6</p>
           </div>
           <div class="pic-display">
-            <a href="https://store.steampowered.com/app/2288350/RAIDOU_Remastered_The_Mystery_of_the_Soulless_Army/">
+            <a href="https://store.steampowered.com/app/2288350/RAIDOU_Remastered_The_Mystery_of_the_Soulless_Army/" target="_blank">
               <img
                 src="assets/vg-accents/boxart/raidou.jpg"
                 class="curr-playing-img" />
             </a>
-            <p>RAIDOU Remastered:The Mystery of the Soulless Army</p>
+            <p>RAIDOU:The Mystery of the Soulless Army</p>
           </div>
         </div>
       </div>
@@ -96,11 +96,11 @@ $role = $_SESSION['role'] ?? '';
         <h2 class="introHOME-title">Recent Videogame Posts</h2>
         <div class="recent-post-list">
           <div class="flex-items-vg">
-            <a href="https://store.steampowered.com/app/1875830/Shin_Megami_Tensei_V_Vengeance/">
+            <a href="https://store.steampowered.com/app/1875830/Shin_Megami_Tensei_V_Vengeance/" target="_blank">
               <img src="assets/vg-accents/boxart/smt5v.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Shin Megami Tensei 5: Vengeance</h2>
               </a>
               <h4>Atlus</h4>
@@ -108,11 +108,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/">
+            <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank">
               <img src="assets/vg-accents/boxart/Cyberpunk_2077_box_art.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Cyberpunk 2077 (2020)</h2>
               </a>
               <h4>CD PROJEKT RED</h4>
@@ -120,11 +120,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/">
+            <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/" target="_blank">
               <img src="assets/vg-accents/boxart/boi.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">The Binding of Isaac: Rebirth (2014)</h2>
               </a>
               <h4>Nicalis Inc</h4>
@@ -132,11 +132,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="https://store.steampowered.com/app/275850/No_Mans_Sky/">
+            <a href="https://store.steampowered.com/app/275850/No_Mans_Sky/" target="_blank">
               <img src="assets/vg-accents/boxart/nms.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">No Mans Sky (2016)</h2>
               </a>
               <h4>Hello Games</h4>
@@ -144,11 +144,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-vg">
-            <a href="https://store.steampowered.com/app/3354750/skate/">
+            <a href="https://store.steampowered.com/app/3354750/skate/" target="_blank">
               <img src="assets/vg-accents/boxart/skate.jpg" alt="Cover Art" class="vg-img-post">
             </a>
             <div class="vg-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Skate (2025)</h2>
               </a>
               <h4>EA Games</h4>
@@ -168,7 +168,7 @@ $role = $_SESSION['role'] ?? '';
         <img src="assets/vg-accents/persona.gif" class="btn-att" />
         <img src="assets/vg-accents/stardew_valley.gif" class="btn-att" />
 
-        <a href="https://steamcommunity.com/id/jacksoncity/"><img src="assets/vg-accents/steam.gif" class="btn-att" /></a>
+        <a href="https://steamcommunity.com/id/jacksoncity/" target="_blank"><img src="assets/vg-accents/steam.gif" class="btn-att-link" /></a>
         <img src="assets/vg-accents/vocaloid.gif" class="btn-att" />
 
         <img src="assets/vg-accents/cs3.gif" class="btn-att" />

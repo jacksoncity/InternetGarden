@@ -44,13 +44,15 @@ $role = $_SESSION['role'] ?? '';
     <div class="main-content-project">
       <!-- Header of the main home landing page-->
       <div class="header-project">
-        <h1 class="titleHOME">Projects</h1>
+        <h1 class="titlePRO"><span>Projects</span></h1>
         <?php if ($username): ?>
           <p class="user-info">Logged in as <?= htmlspecialchars($username) ?>
             <?= $role ? ' (' . htmlspecialchars($role) . ')' : '' ?></p>
         <?php endif; ?>
-        <p class="flvrHOME">
-          Just some insight into some of my other creative interests.
+        <p class="flvrPRO">
+          <span>
+            Just some insight into some of my other creative interests.
+          </span>
         </p>
       </div>
       <div class="currently-working-project">
@@ -61,14 +63,14 @@ $role = $_SESSION['role'] ?? '';
         <div class="project-container">
           <div class="project-display">
             <a
-              href="indev.php">
+              href="indev.php" target="_blank">
               <img
                 src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif"
                 class="curr-project"
                 alt="project thumbnail" />
             </a>
             <a
-              href="indev.php" style="color: white;">
+              href="indev.php" style="color: white;" target="_blank">
               <p>2005 EMac Restoration</p>
             </a>
           </div>
@@ -79,55 +81,55 @@ $role = $_SESSION['role'] ?? '';
         <h2 class="introHOME-title">Recent Project Posts</h2>
         <div class="recent-post-list">
           <div class="flex-items-pro">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Collage of Images I Like</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> I really just wanted a place to put a collection of images that I find online and like. I urdge anyone who likes any of the art shown under this page to please click on the images, as it will redirect you to the source of the image, so that you can find the creator and give them the proper love they deserve.</p>
             </div>
           </div>
           <div class="flex-items-pro">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Begining to Learn Basic Electronics</h2>
               </a>
               <p class="preview-text"></p>
             </div>
           </div>
           <div class="flex-items-pro">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Switch to Physical Media</h2>
               </a>
               <p class="preview-text"></p>
             </div>
           </div>
           <div class="flex-items-pro">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
-                <h2 style="color: white; text-decoration: underline;">Development of this Website</h2>
+              <a href="indev.php" target="_blank">
+                <h2 style="color: white; text-decoration: underline;">CD Case Tracking Application</h2>
               </a>
               <p class="preview-text"></p>
             </div>
           </div>
           <div class="flex-items-pro">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">2005 Apple EMac Restoration</h2>
               </a>
               <p class="preview-text"></p>

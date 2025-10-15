@@ -65,27 +65,27 @@ $role = $_SESSION['role'] ?? '';
         <div class="album-container">
           <div class="music-display">
             <a
-              href="https://open.spotify.com/album/7dJPDPUi94jA91VxG4vZb3?si=riXerinhT9i32wcOoHzMfA">
+              href="https://open.spotify.com/album/7dJPDPUi94jA91VxG4vZb3?si=riXerinhT9i32wcOoHzMfA" target="_blank">
               <img
-                src="assets/music-accents/music-covers/mitec.jpg"
+                src="assets/music-posts/covers/mitec.jpg"
                 class="curr-listening" /></a>
             <p>Men I Trust - Equus Caballus</p>
           </div>
 
           <div class="music-display">
             <a
-              href="https://open.spotify.com/album/4lVMhVIgEdxIoTu7gS7CoT?si=iYgUTWPoT3CPFAjDgoigmw">
+              href="https://open.spotify.com/album/4lVMhVIgEdxIoTu7gS7CoT?si=iYgUTWPoT3CPFAjDgoigmw" target="_blank">
               <img
-                src="assets/music-accents/music-covers/flh.jpg"
+                src="assets/music-posts/covers/flh.jpg"
                 class="curr-listening" /></a>
             <p>feeble little horse - Girl with Fish</p>
           </div>
 
           <div class="music-display">
             <a
-              href="https://open.spotify.com/album/6ChJPrYiWkcJeEWIDKDE48?si=eS-H6GgGRiSJ7Bp99Jlk6w">
+              href="https://open.spotify.com/album/6ChJPrYiWkcJeEWIDKDE48?si=eS-H6GgGRiSJ7Bp99Jlk6w" target="_blank">
               <img
-                src="assets/music-accents/music-covers/shesgreen.jpg"
+                src="assets/music-posts/covers/shesgreen.jpg"
                 class="curr-listening" /></a>
             <p>she's green - Wisteria</p>
           </div>
@@ -101,12 +101,12 @@ $role = $_SESSION['role'] ?? '';
           <!-- INDIVIDUAL BOARD POST -->
           <div class="flex-items-music">
             <!--ALBUM ART -->
-            <a href="https://notdummy.bandcamp.com/album/dumb-eps-2">
+            <a href="https://notdummy.bandcamp.com/album/dumb-eps-2" target="_blank">
               <img src="assets/music-posts/covers/dummy.jpg" alt="Album Art" class="music-img-post">
             </a>
             <!-- TEXT ELEMENTS -->
             <div class="music-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Dummy - Dumb EPs (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
@@ -115,11 +115,11 @@ $role = $_SESSION['role'] ?? '';
           </div>
           <!-- REPEAT -->
           <div class="flex-items-music">
-            <a href="https://swordii.bandcamp.com/album/spirit-world-tour">
+            <a href="https://swordii.bandcamp.com/album/spirit-world-tour" target="_blank">
               <img src="assets/music-posts/covers/sword2.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Sword II - Spirit World Tour (2023)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
@@ -127,11 +127,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="https://wetleg.bandcamp.com/album/moisturizer">
+            <a href="https://wetleg.bandcamp.com/album/moisturizer" target="_blank" target="_blank">
               <img src="assets/music-posts/covers/moisturizer.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Wet Leg - Moisturizer (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
@@ -139,11 +139,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/music-posts/covers/rocket.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
-              <a href="https://rockettheband.bandcamp.com/album/r-is-for-rocket">
+              <a href="https://rockettheband.bandcamp.com/album/r-is-for-rocket" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Rocket - R is for Rocket (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
@@ -151,11 +151,11 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
           <div class="flex-items-music">
-            <a href="https://geesebandnyc.bandcamp.com/album/getting-killed">
+            <a href="https://geesebandnyc.bandcamp.com/album/getting-killed" target="_blank">
               <img src="assets/music-posts/covers/gettingkilled.jpg" alt="Album Art" class="music-img-post">
             </a>
             <div class="music-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Geese - Getting Killed (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
@@ -176,9 +176,11 @@ $role = $_SESSION['role'] ?? '';
         <img src="assets/music-accents/ravenow3.gif" class="btn-att" />
         <img src="assets/music-accents/plasticlove.gif" class="btn-att" />
 
-        <a
-          href="https://open.spotify.com/user/jacksoncity101?si=02a542503bcc4139"><img src="assets/music-accents/spotify.gif" class="btn-att" /></a>
+        <a href="https://open.spotify.com/user/jacksoncity101?si=02a542503bcc4139" target="_blank"><img src="assets/music-accents/spotify.gif" class="btn-att-link" /></a>
         <img src="assets/music-accents/volta.gif" class="btn-att" />
+
+        <a href="https://lucida.to/" target="_blank"><img src="assets/music-accents/lucida.gif" class="btn-att-link" /></a>
+        <!-- <img src="assets/music-accents/#####" class="btn-att" /> -->
       </div>
       <img src="assets/planets.png" class="divider-music-right" />
       <div class="blinkies-home">

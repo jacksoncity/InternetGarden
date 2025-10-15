@@ -61,11 +61,11 @@ $role = $_SESSION['role'] ?? '';
 
         <div class="blog-container">
           <div class="flex-items-blog">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline; text-align: center;">Placeholder Title</h2>
               </a>
               <p class="preview-text"></p>
@@ -79,11 +79,11 @@ $role = $_SESSION['role'] ?? '';
         <div class="recent-post-list">
 
           <div class="flex-items-blog">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
               </a>
               <p class="preview-text"></p>
@@ -95,18 +95,18 @@ $role = $_SESSION['role'] ?? '';
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a> -->
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
               </a>
               <p class="preview-text"></p>
             </div>
           </div>
           <div class="flex-items-blog">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
               </a>
               <p class="preview-text"></p>
@@ -117,18 +117,18 @@ $role = $_SESSION['role'] ?? '';
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a> -->
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
               </a>
               <p class="preview-text"></p>
             </div>
           </div>
           <div class="flex-items-blog">
-            <a href="indev.php">
+            <a href="indev.php" target="_blank">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a>
             <div class="project-text-ele">
-              <a href="indev.php">
+              <a href="indev.php" target="_blank">
                 <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
               </a>
               <p class="preview-text"></p>
@@ -143,9 +143,7 @@ $role = $_SESSION['role'] ?? '';
       <img src="assets/dividerblog.gif" class="divider-blog-right" />
       <div class="btn-home">
         <img src="assets/blog-accents/dontleave.gif" class="btn-att" />
-        <img
-          src="assets/blog-accents/internet-roadkill.gif"
-          class="btn-att" />
+        <img src="assets/blog-accents/internet-roadkill.gif" class="btn-att" />
 
         <img src="assets/blog-accents/fftake.gif" class="btn-att" />
         <img src="assets/blog-accents/stop.gif" class="btn-att" />
@@ -163,9 +161,7 @@ $role = $_SESSION['role'] ?? '';
         <img src="assets/blog-accents/load.gif" class="btn-att" />
         <img src="assets/blog-accents/x8.gif" class="btn-att" />
         <img src="assets/blog-accents/v77.gif" class="btn-att" />
-        <img
-          src="assets/blog-accents/monstersofthedeep.gif"
-          class="btn-att" />
+        <img src="assets/blog-accents/monstersofthedeep.gif" class="btn-att" />
         <img src="assets/blog-accents/nightperson.gif" class="btn-att" />
       </div>
       <img src="assets/dividerblog.gif" class="divider-blog-right" />
