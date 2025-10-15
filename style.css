@@ -11,7 +11,7 @@ body.home {
   flex-direction: column;
   background-image: url("assets/home-accents/homebg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
   min-height: 100vh;
   margin: 0;
 }
@@ -23,6 +23,7 @@ a {
 
 a:hover {
   color: rgb(255, 147, 147);
+  cursor: url("assets/mainCursorHover.png"), auto;
 }
 
 .admin-login {
@@ -55,7 +56,7 @@ a:hover {
 }
 
 .jameslink {
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .titleHOME {
@@ -165,7 +166,7 @@ a:hover {
   color: red;
   text-decoration: none;
   font-size: larger;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .divider-home {
@@ -232,6 +233,18 @@ a:hover {
   margin-right: 15%;
 }
 
+/* FAKE AD STUFF */
+
+.adSpace {
+  text-align: center;
+}
+
+.fakepspad {
+  padding: 12px;
+  margin-top: -8%;
+  border: 3px solid transparent;
+  border-image: url(assets/vg-accents/border-vg.gif) 10 round;
+}
 /* RECENTS ON HOME PAGE STUFF*/
 
 .recents-home {
@@ -354,7 +367,7 @@ body.resources {
   flex-direction: column;
   background-image: url("assets/res-accents/resourcebg.jpeg");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
   margin: 0;
 }
 
@@ -427,7 +440,7 @@ body.videogames {
   flex-direction: column;
   background-image: url("assets/vg-accents/videogamebg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/vgcursor.png"), auto;
+  cursor: url("assets/vg-accents/vgcursor.png"), auto;
   min-height: 100vh;
   margin: 0;
 }
@@ -543,7 +556,7 @@ body.videogames {
   color: red;
   text-decoration: none;
   font-size: larger;
-  cursor: url("assets/cursors/vgcursor.png"), auto;
+  cursor: url("assets/vg-accents/vgcursor.png"), auto;
 }
 
 .vg-posts {
@@ -678,7 +691,7 @@ body.music {
   flex-direction: column;
   background-image: url("assets/music-accents/musicbg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
   min-height: 100vh;
   margin: 0;
 }
@@ -932,7 +945,7 @@ body.projects {
   flex-direction: column;
   background-image: url("assets/projects-accents/projectbg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .sidebar-projects-left {
@@ -1201,7 +1214,7 @@ body.blog {
   flex-direction: column;
   background-image: url("assets/blog-accents/blogbg.jpeg");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .sidebar-blog-left {
@@ -1444,7 +1457,7 @@ body.about {
   flex-direction: column;
   background-image: url("assets/about-accents/aboutbg.jpeg");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .flvrABOUT span {
@@ -1518,7 +1531,7 @@ body.admin {
   flex-direction: column;
   background-image: url("assets/adminbg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .login-cont {
@@ -1537,14 +1550,20 @@ input {
   border: none;
   border-radius: 10px;
   margin-bottom: 25px;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .admin-btn {
   width: 40%;
   padding: 10px;
   border-radius: 20px;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
+  margin-bottom: 4%;
+}
+
+.susDog {
+  height: 300px;
+  width: 300px;
 }
 
 .error-msg-login {
@@ -1572,7 +1591,7 @@ body.panel {
   flex-direction: column;
   background-image: url("assets/adminbg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .sidebar-panel-left {
@@ -1688,7 +1707,7 @@ body.dev {
   flex-direction: column;
   background-image: url("assets/adminbg.gif");
   font-family: vcr;
-  cursor: url("assets/cursors/fire.gif"), auto;
+  cursor: url("assets/mainCursor.png"), auto;
 }
 
 .main-content-dev {

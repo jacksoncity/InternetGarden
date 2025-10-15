@@ -40,7 +40,8 @@ $role = $_SESSION['role'] ?? '';
 
       <img
         src="assets/home-accents/gardenbutton.gif"
-        style="padding-top: 20px" />
+        style="padding-top: 20px"
+        class="garden-button" />
     </div>
     <div class="main-content-vg">
       <!-- Header of the main home landing page-->
@@ -156,6 +157,9 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
         </div>
+      </div>
+      <div class="adSpace">
+        <img src="assets/vg-accents/jesuspsp.gif" class="fakepspad">
       </div>
     </div>
     <div class="sidebar-videogames-right">

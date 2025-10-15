@@ -37,7 +37,8 @@ function showError($error)
 
         <button class="admin-btn" type="submit" name="login">Login</button>
 
-        <p><a href="main.html">You're not supposed to be here, are you?</a></p>
+        <p><a href="main.php">You're not supposed to be here, are you?</a></p>
+        <img src="assets/admin-accents/susdog.jpg" class="susDog">
       </form>
     </div>
   </div>

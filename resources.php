@@ -39,7 +39,8 @@ $role = $_SESSION['role'] ?? '';
       <img src="assets/dividerresources.gif" class="divider-resources" />
       <img
         src="assets/home-accents/gardenbutton.gif"
-        style="padding-top: 20px" />
+        style="padding-top: 20px"
+        class="garden-button" />
     </div>
     <div class="main-content-res">
       <!-- Header of the main home landing page-->
@@ -65,59 +66,59 @@ $role = $_SESSION['role'] ?? '';
             </tr>
             <tr>
               <th>
-                <a href="https://www.cursors-4u.com/">https://www.cursors-4u.com/</a>
+                <a href="https://www.cursors-4u.com/" target="_blank">https://www.cursors-4u.com/</a>
               </th>
-              <th>Custom Cursors</th>
+              <th>Custom Cursors <a href="https://www.cursors-4u.com/cursor/2013/02/28/firefly-pointer-set.html#" target="_blank">(Used on this Website)</a></th>
             </tr>
             <th>
-              <a href="https://gifcities.org/">https://gifcities.org/</a>
+              <a href="https://gifcities.org/" target="_blank">https://gifcities.org/</a>
             </th>
             <th>Various Gifs</th>
             <tr>
               <th>
-                <a href="https://codepen.io/uchihaclan/full/QWZXLWa">https://codepen.io/uchihaclan/full/QWZXLWa</a>
+                <a href="https://codepen.io/uchihaclan/full/QWZXLWa" target="_blank">https://codepen.io/uchihaclan/full/QWZXLWa</a>
               </th>
               <th>Backgrounds</th>
             </tr>
             <tr>
               <th>
-                <a href="https://www.tooooools.app/effects/dithering">https://www.tooooools.app/effects/dithering</a>
+                <a href="https://www.tooooools.app/effects/dithering" target="_blank">https://www.tooooools.app/effects/dithering</a>
               </th>
               <th>Dithering on logo</th>
             </tr>
             <tr>
               <th>
-                <a href="https://pixelsafari.neocities.org/">https://pixelsafari.neocities.org/</a>
+                <a href="https://pixelsafari.neocities.org/" target="_blank">https://pixelsafari.neocities.org/</a>
               </th>
               <th>Variouis graphic assets</th>
             </tr>
             <tr>
               <th>
-                <a href="https://cyber.dabamos.de/88x31/index.html">https://cyber.dabamos.de/88x31/index.html</a>
+                <a href="https://cyber.dabamos.de/88x31/index.html" target="_blank">https://cyber.dabamos.de/88x31/index.html</a>
               </th>
               <th>Variouis button assets</th>
             </tr>
             <tr>
               <th>
-                <a href="https://adriansblinkiecollection.neocities.org/">https://adriansblinkiecollection.neocities.org/</a>
+                <a href="https://adriansblinkiecollection.neocities.org/" target="_blank">https://adriansblinkiecollection.neocities.org/</a>
               </th>
               <th>Variouis blinkie assets</th>
             </tr>
             <tr>
               <th>
-                <a href="https://leizy8499.neocities.org/resources">https://leizy8499.neocities.org/resources</a>
+                <a href="https://leizy8499.neocities.org/resources" target="_blank">https://leizy8499.neocities.org/resources</a>
               </th>
               <th>Collection of various graphic resources</th>
             </tr>
             <tr>
               <th>
-                <a href="https://bettysgraphics.neocities.org/webgraphics">https://bettysgraphics.neocities.org/webgraphics</a>
+                <a href="https://bettysgraphics.neocities.org/webgraphics" target="_blank">https://bettysgraphics.neocities.org/webgraphics</a>
               </th>
               <th>Old web graphics</th>
             </tr>
             <tr>
               <th>
-                <a href="https://dividers.crd.co/#hii">https://dividers.crd.co/#hii</a>
+                <a href="https://dividers.crd.co/#hii" target="_blank">https://dividers.crd.co/#hii</a>
               </th>
               <th>Dividers</th>
             </tr>
@@ -132,20 +133,20 @@ $role = $_SESSION['role'] ?? '';
               <th>Creator</th>
             </tr>
             <tr>
-              <th><a href="https://jamesg.blog/">https://jamesg.blog/</a></th>
+              <th><a href="https://jamesg.blog/" target="_blank">https://jamesg.blog/</a></th>
               <th>Initial Idea Inspo</th>
               <th>James, from jamesg.blog</th>
             </tr>
             <tr>
               <th>
-                <a href="https://neocities.org/browse">https://neocities.org/browse</a>
+                <a href="https://neocities.org/browse" target="_blank">https://neocities.org/browse</a>
               </th>
               <th>Aesthetic/Style Inspo</th>
               <th>Neocities/Various Creators</th>
             </tr>
             <tr>
               <th>
-                <a href="https://briankoberlein.com/tech/quiet-web">https://briankoberlein.com/tech/quiet-web</a>
+                <a href="https://briankoberlein.com/tech/quiet-web" target="_blank">https://briankoberlein.com/tech/quiet-web</a>
               </th>
               <th>Inspiration for simplicity</th>
               <th>Brian Koberlein</th>
