@@ -10,6 +10,7 @@ body.home {
   display: flex;
   flex-direction: column;
   background-image: url("assets/home-accents/homebg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
   min-height: 100vh;
@@ -207,8 +208,15 @@ a:hover {
   font-size: 0px;
 }
 
+.btn-att-link-blink {
+  padding: 2px;
+  align-items: center;
+  font-size: 0px;
+}
+
 .blinkies-home {
   display: block;
+  width: 185px;
 }
 
 .introHOME {
@@ -246,6 +254,26 @@ a:hover {
   border-image: url(assets/vg-accents/border-vg.gif) 10 round;
 }
 /* RECENTS ON HOME PAGE STUFF*/
+
+.post-title {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 26px;
+  padding: 5px;
+}
+
+.post-title:hover {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.preview-text {
+  font-size: 18px;
+}
 
 .recents-home {
   color: white;
@@ -366,6 +394,7 @@ body.resources {
   display: flex;
   flex-direction: column;
   background-image: url("assets/res-accents/resourcebg.jpeg");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
   margin: 0;
@@ -439,6 +468,7 @@ body.videogames {
   display: flex;
   flex-direction: column;
   background-image: url("assets/vg-accents/videogamebg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/vg-accents/vgcursor.png"), auto;
   min-height: 100vh;
@@ -512,11 +542,30 @@ body.videogames {
 }
 
 .curr-playing-img {
-  height: 350px;
-  width: 230px;
-  padding: 20px;
+  height: 320px;
+  width: 210px;
+  padding: 25px;
   border: 4px solid transparent;
   border-image: url(assets/vg-accents/border-vg.gif) 10 round;
+}
+
+.curr-playing-img:hover {
+  height: 360px;
+  width: 240px;
+  padding: 12px;
+  border: 4px solid transparent;
+  border-image: url(assets/vg-accents/border-vg.gif) 10 round;
+  margin-bottom: -5%;
+}
+
+.pic-display {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
+  flex: 1;
+  margin-bottom: 5%;
 }
 
 .divider-vg {
@@ -574,6 +623,12 @@ body.videogames {
   width: 200px;
   height: 280px;
   padding: 15px;
+}
+
+.vg-img-post:hover {
+  width: 225px;
+  height: 315px;
+  padding: 2px;
 }
 
 .vg-text-ele {
@@ -690,6 +745,7 @@ body.music {
   display: flex;
   flex-direction: column;
   background-image: url("assets/music-accents/musicbg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
   min-height: 100vh;
@@ -785,6 +841,14 @@ body.music {
   border-image: url(assets/music-accents/border-music.gif) 10 round;
 }
 
+.curr-listening:hover {
+  height: 285px;
+  width: 285px;
+  padding: 7px;
+  border: 4px solid transparent;
+  border-image: url(assets/music-accents/border-music.gif) 10 round;
+}
+
 .curr-title {
   text-align: center;
   padding-bottom: 20px;
@@ -826,6 +890,11 @@ body.music {
 .music-img-post {
   width: 200px;
   padding: 20px;
+}
+
+.music-img-post:hover {
+  width: 235px;
+  padding: 5px;
 }
 
 .music-text-ele {
@@ -944,6 +1013,7 @@ body.projects {
   display: flex;
   flex-direction: column;
   background-image: url("assets/projects-accents/projectbg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }
@@ -1036,13 +1106,21 @@ body.projects {
   background-color: rgba(20, 20, 20, 0.7);
   border: 8px solid transparent;
   border-image: url(assets/projects-accents/border-projects.gif) 10 round;
-  padding: 15px;
+  padding: 22px;
 }
 
 .curr-project {
-  height: 250px;
-  width: 250px;
-  padding: 25px;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 4px solid transparent;
+  border-image: url(assets/projects-accents/border-projects.gif) 10 round;
+}
+
+.curr-project:hover {
+  height: 335px;
+  width: 335px;
+  padding: 4px;
   border: 4px solid transparent;
   border-image: url(assets/projects-accents/border-projects.gif) 10 round;
 }
@@ -1091,6 +1169,12 @@ body.projects {
   height: 200px;
   width: 200px;
   padding: 20px;
+}
+
+.project-img-post:hover {
+  height: 235px;
+  width: 235px;
+  padding: 10px;
 }
 
 .project-text-ele {
@@ -1213,6 +1297,7 @@ body.blog {
   display: flex;
   flex-direction: column;
   background-image: url("assets/blog-accents/blogbg.jpeg");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }
@@ -1280,6 +1365,12 @@ body.blog {
   height: 200px;
   width: 200px;
   padding: 20px;
+}
+
+.curr-blog:hover {
+  height: 235px;
+  width: 235px;
+  padding: 7px;
 }
 
 .blog-container {
@@ -1456,6 +1547,7 @@ body.about {
   display: flex;
   flex-direction: column;
   background-image: url("assets/about-accents/aboutbg.jpeg");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }
@@ -1530,6 +1622,7 @@ body.admin {
   display: flex;
   flex-direction: column;
   background-image: url("assets/adminbg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }
@@ -1590,6 +1683,7 @@ body.panel {
   display: flex;
   flex-direction: column;
   background-image: url("assets/adminbg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }
@@ -1706,6 +1800,7 @@ body.dev {
   display: block;
   flex-direction: column;
   background-image: url("assets/adminbg.gif");
+  background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }

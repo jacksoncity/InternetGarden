@@ -59,7 +59,7 @@ $role = $_SESSION['role'] ?? '';
         <div class="curr-title">
           <h2 class="introHOME-title">What I'm Currently Listening To:</h2>
           <!--WHAT IM LISTENING TO UPDATE TIME-->
-          <p style="color: white; color: #e5e764ff">as of July 10th, 2025</p>
+          <p style="color: #e5e764ff">as of July 10th, 2025</p>
         </div>
 
         <div class="album-container">
@@ -107,10 +107,10 @@ $role = $_SESSION['role'] ?? '';
             <!-- TEXT ELEMENTS -->
             <div class="music-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Dummy - Dumb EPs (2025)</h2>
+                <h2 class="post-title">Dummy - Dumb EPs (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <!-- REPEAT -->
@@ -120,10 +120,10 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="music-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Sword II - Spirit World Tour (2023)</h2>
+                <h2 class="post-title">Sword II - Spirit World Tour (2023)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <div class="flex-items-music">
@@ -132,10 +132,10 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="music-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Wet Leg - Moisturizer (2025)</h2>
+                <h2 class="post-title">Wet Leg - Moisturizer (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <div class="flex-items-music">
@@ -144,10 +144,10 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="music-text-ele">
               <a href="https://rockettheband.bandcamp.com/album/r-is-for-rocket" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Rocket - R is for Rocket (2025)</h2>
+                <h2 class="post-title">Rocket - R is for Rocket (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <div class="flex-items-music">
@@ -156,10 +156,10 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="music-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Geese - Getting Killed (2025)</h2>
+                <h2 class="post-title">Geese - Getting Killed (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
         </div>

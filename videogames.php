@@ -61,7 +61,7 @@ $role = $_SESSION['role'] ?? '';
           <h2 class="introHOME-title">What I'm Currently Playing:</h2>
 
           <!--WHAT IM PLAYING UPDATE TIME-->
-          <p style="color: white">as of October 8th, 2025</p>
+          <p style="color: #e7d8d4">as of October 8th, 2025</p>
         </div>
 
         <div class="album-container">
@@ -87,7 +87,7 @@ $role = $_SESSION['role'] ?? '';
                 src="assets/vg-accents/boxart/raidou.jpg"
                 class="curr-playing-img" />
             </a>
-            <p>RAIDOU:The Mystery of the Soulless Army</p>
+            <p>RAIDOU</p>
           </div>
         </div>
       </div>
@@ -102,9 +102,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="vg-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Shin Megami Tensei 5: Vengeance</h2>
+                <h2 class="post-title">Shin Megami Tensei 5: Vengeance</h2>
               </a>
-              <h4>Atlus</h4>
+              <h4 style="color: #e7d8d4">Atlus</h4>
               <p class="preview-text"></p>
             </div>
           </div>
@@ -114,9 +114,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="vg-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Cyberpunk 2077 (2020)</h2>
+                <h2 class="post-title">Cyberpunk 2077 (2020)</h2>
               </a>
-              <h4>CD PROJEKT RED</h4>
+              <h4 style="color: #e7d8d4">CD PROJEKT RED</h4>
               <p class="preview-text"></p>
             </div>
           </div>
@@ -126,9 +126,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="vg-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">The Binding of Isaac: Rebirth (2014)</h2>
+                <h2 class="post-title">The Binding of Isaac: Rebirth (2014)</h2>
               </a>
-              <h4>Nicalis Inc</h4>
+              <h4 style="color: #e7d8d4">Nicalis Inc</h4>
               <p class="preview-text"></p>
             </div>
           </div>
@@ -138,9 +138,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="vg-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">No Mans Sky (2016)</h2>
+                <h2 class="post-title">No Mans Sky (2016)</h2>
               </a>
-              <h4>Hello Games</h4>
+              <h4 style="color: #e7d8d4">Hello Games</h4>
               <p class="preview-text"></p>
             </div>
           </div>
@@ -150,9 +150,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="vg-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Skate (2025)</h2>
+                <h2 class="post-title">Skate (2025)</h2>
               </a>
-              <h4>EA Games</h4>
+              <h4 style="color: #e7d8d4">EA Games</h4>
               <p class="preview-text"></p>
             </div>
           </div>
@@ -170,7 +170,7 @@ $role = $_SESSION['role'] ?? '';
         <img src="assets/vg-accents/blink-0.gif" class="btn-att" />
 
         <img src="assets/vg-accents/persona.gif" class="btn-att" />
-        <img src="assets/vg-accents/stardew_valley.gif" class="btn-att" />
+        <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="assets/vg-accents/stardew_valley.gif" class="btn-att-link" /> </a>
 
         <a href="https://steamcommunity.com/id/jacksoncity/" target="_blank"><img src="assets/vg-accents/steam.gif" class="btn-att-link" /></a>
         <img src="assets/vg-accents/vocaloid.gif" class="btn-att" />
@@ -178,7 +178,7 @@ $role = $_SESSION['role'] ?? '';
         <img src="assets/vg-accents/cs3.gif" class="btn-att" />
         <img src="assets/vg-accents/newlambda.gif" class="btn-att" />
 
-        <img src="assets/vg-accents/emulate.gif" class="btn-att" />
+        <a href="https://fmhy.net/gaming#emulation-roms" target="_blank"><img src="assets/vg-accents/emulate.gif" class="btn-att-link" /></a>
         <img src="assets/vg-accents/gamefly-88x31.gif" class="btn-att" />
 
         <img src="assets/vg-accents/bob.gif" class="btn-att" />
@@ -186,12 +186,12 @@ $role = $_SESSION['role'] ?? '';
       </div>
       <img src="assets/dividervg.gif" class="divider-vg-right" />
       <div class="blinkies-home">
-        <img src="assets/vg-accents/h20.gif" class="btn-att" />
+        <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/" target="_blank"><img src="assets/vg-accents/h20.gif" class="btn-att-link-blink" /></a>
         <img src="assets/vg-accents/ren.gif" class="btn-att" />
         <img src="assets/vg-accents/bulb.gif" class="btn-att" />
         <img src="assets/vg-accents/iheartTES.gif" class="btn-att" />
-        <img src="assets/vg-accents/d22.gif" class="btn-att" />
-        <img src="assets/vg-accents/z14.gif" class="btn-att" />
+        <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="assets/vg-accents/d22.gif" class="btn-att-link-blink" /></a>
+        <a href="https://www.minecraft.net/en-us" target="_blank"><img src="assets/vg-accents/z14.gif" class="btn-att-link-blink" /></a>
         <img src="assets/vg-accents/v66.gif" class="btn-att" />
         <img src="assets/vg-accents/vi16.gif" class="btn-att" />
         <img src="assets/vg-accents/bug.gif" class="btn-att" />

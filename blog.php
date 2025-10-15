@@ -67,9 +67,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline; text-align: center;">Placeholder Title</h2>
+                <h2 class="post-title">Placeholder Featured Blog</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
         </div>
@@ -85,9 +85,9 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+                <h2 class="post-title">Placeholder Title</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
 
@@ -97,42 +97,45 @@ $role = $_SESSION['role'] ?? '';
             </a> -->
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+                <h2 class="post-title">Placeholder Title</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
+
           <div class="flex-items-blog">
             <a href="indev.php" target="_blank">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+                <h2 class="post-title">Placeholder Title</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
+
           <div class="flex-items-blog">
             <!-- <a href="indev.php">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a> -->
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+                <h2 class="post-title">Placeholder Title</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
+
           <div class="flex-items-blog">
             <a href="indev.php" target="_blank">
               <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Placeholder Title</h2>
+                <h2 class="post-title">Placeholder Title</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
         </div>
@@ -146,7 +149,7 @@ $role = $_SESSION['role'] ?? '';
         <img src="assets/blog-accents/dontleave.gif" class="btn-att" />
         <img src="assets/blog-accents/internet-roadkill.gif" class="btn-att" />
 
-        <img src="assets/blog-accents/fftake.gif" class="btn-att" />
+        <a href="https://www.firefox.com/en-US/?utm_campaign=SET_DEFAULT_BROWSER" target="_blank"><img src="assets/blog-accents/fftake.gif" class="btn-att-link" /></a>
         <img src="assets/blog-accents/stop.gif" class="btn-att" />
 
         <img src="assets/blog-accents/parental.gif" class="btn-att" />

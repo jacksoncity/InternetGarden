@@ -65,13 +65,13 @@ $role = $_SESSION['role'] ?? '';
             <a
               href="indev.php" target="_blank">
               <img
-                src="assets/projects-accents/project-thumbnails/amimirawr-mimi.gif"
+                src="assets/projects-accents/project-thumbnails/emac.jpg"
                 class="curr-project"
                 alt="project thumbnail" />
             </a>
             <a
               href="indev.php" style="color: white;" target="_blank">
-              <p>2005 EMac Restoration</p>
+              <p style="font-size: 26px;">2005 EMac Restoration</p>
             </a>
           </div>
         </div>
@@ -86,7 +86,7 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Collage of Images I Like</h2>
+                <h2 class="post-title">Collage of Images I Like</h2>
               </a>
               <p class="preview-text"> I really just wanted a place to put a collection of images that I find online and like. I urdge anyone who likes any of the art shown under this page to please click on the images, as it will redirect you to the source of the image, so that you can find the creator and give them the proper love they deserve.</p>
             </div>
@@ -97,20 +97,20 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Begining to Learn Basic Electronics</h2>
+                <h2 class="post-title">Begining to Learn Basic Electronics</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <div class="flex-items-pro">
             <a href="indev.php" target="_blank">
-              <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/stereo.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">Switch to Physical Media</h2>
+                <h2 class="post-title">Switch to Physical Media</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <div class="flex-items-pro">
@@ -119,20 +119,20 @@ $role = $_SESSION['role'] ?? '';
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">CD Case Tracking Application</h2>
+                <h2 class="post-title">CD Case Tracking Application</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
           <div class="flex-items-pro">
             <a href="indev.php" target="_blank">
-              <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Project Thumbnail" class="project-img-post">
+              <img src="assets/projects-accents/project-thumbnails/emac.jpg" alt="Project Thumbnail" class="project-img-post">
             </a>
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
-                <h2 style="color: white; text-decoration: underline;">2005 Apple EMac Restoration</h2>
+                <h2 class="post-title">2005 Apple EMac Restoration</h2>
               </a>
-              <p class="preview-text"></p>
+              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
             </div>
           </div>
         </div>
@@ -143,13 +143,13 @@ $role = $_SESSION['role'] ?? '';
       <img src="assets/starsgrey.gif" class="divider-projects" />
       <div class="btn-home">
         <img src="assets/projects-accents/gardenbutton.gif" class="btn-att" />
-        <img src="assets/projects-accents/gimp.gif" class="btn-att" />
+        <a href="https://www.gimp.org/downloads/" target="_blank"><img src="assets/projects-accents/gimp.gif" class="btn-att-link" /></a>
 
-        <img src="assets/projects-accents/github.gif" class="btn-att" />
+        <a href="https://github.com/jacksoncity" target="_blank"><img src="assets/projects-accents/github.gif" class="btn-att-link" /></a>
         <img src="assets/projects-accents/htmldream.gif" class="btn-att" />
 
         <img src="assets/projects-accents/now.jpg" class="btn-att" />
-        <img src="assets/projects-accents/vscbutton.gif" class="btn-att" />
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="assets/projects-accents/vscbutton.gif" class="btn-att-link" /></a>
       </div>
       <img src="assets/starsgrey.gif" class="divider-projects" />
       <div class="blinkies-home"></div>

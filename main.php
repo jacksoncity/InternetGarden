@@ -57,6 +57,7 @@ $role = $_SESSION['role'] ?? '';
                     Where You let creativity grow.
                 </p>
             </div>
+
             <div class="ufo-sep">
                 <img src="assets/home-accents/ufo.gif" class="ufo" />
             </div>
@@ -109,58 +110,62 @@ $role = $_SESSION['role'] ?? '';
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 style="color: white; text-decoration: underline;">Test 1</h2>
+                                <h2 class="post-title">Test 1</h2>
                             </a>
-                            <h4 style="color: #c5c762ff">Test flavor text</h4>
-                            <p class="preview-text"></p>
+                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
                         </div>
                     </div>
+
+                    <div class="flex-items">
+                        <a href="indev.php" target="_blank">
+                            <img src="assets/vg-accents/boxart/bf6.jpg" alt="Featured Thumbnail" class="vg-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php" target="_blank">
+                                <h2 class="post-title">Test 2</h2>
+                            </a>
+                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
+                        </div>
+                    </div>
+
                     <div class="flex-items">
                         <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 style="color: white; text-decoration: underline;">Test 2</h2>
+                                <h2 class="post-title">Test 3</h2>
                             </a>
-                            <h4 style="color: #c5c762ff">Test flavor text</h4>
-                            <p class="preview-text"></p>
+                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
                         </div>
                     </div>
+
                     <div class="flex-items">
                         <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 style="color: white; text-decoration: underline;">Test 3</h2>
+                                <h2 class="post-title">Test 4</h2>
                             </a>
-                            <h4 style="color: #c5c762ff">Test flavor text</h4>
-                            <p class="preview-text"></p>
+                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
                         </div>
                     </div>
+
                     <div class="flex-items">
                         <a href="indev.php" target="_blank">
                             <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 style="color: white; text-decoration: underline;">Test 4</h2>
+                                <h2 class="post-title">Test 5</h2>
                             </a>
-                            <h4 style="color: #c5c762ff">Test flavor text</h4>
-                            <p class="preview-text"></p>
-                        </div>
-                    </div>
-                    <div class="flex-items">
-                        <a href="indev.php" target="_blank">
-                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
-                        </a>
-                        <div class="music-text-ele">
-                            <a href="indev.php" target="_blank">
-                                <h2 style="color: white; text-decoration: underline;">Test 5</h2>
-                            </a>
-                            <h4 style="color: #c5c762ff">Test flavor text</h4>
-                            <p class="preview-text"></p>
+                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
                         </div>
                     </div>
                 </div>
@@ -191,18 +196,22 @@ $role = $_SESSION['role'] ?? '';
                 <img src="assets/home-accents/2xp.gif" class="btn-att" />
                 <img src="assets/home-accents/coffee.gif" class="btn-att" />
             </div>
+
             <img src="assets/glitterblue.gif" class="divider-home-right" />
+
             <div class="blinkies-home">
                 <img src="assets/home-accents/kindcomputer.gif" class="btn-att" />
                 <img src="assets/home-accents/e103.gif" class="btn-att" />
-                <img src="assets/home-accents/firefox.gif" class="btn-att" />
+                <a href="https://www.firefox.com/en-US/?utm_campaign=SET_DEFAULT_BROWSER" target="_blank"><img src="assets/home-accents/firefox.gif" class="btn-att-link-blink" /></a>
                 <img src="assets/home-accents/anotherloser.jpg" class="btn-att" />
                 <img src="assets/home-accents/i10.gif" class="btn-att" />
                 <img src="assets/home-accents/x6.gif" class="btn-att" />
                 <img src="assets/home-accents/stargazer2.gif" class="btn-att" />
                 <img src="assets/home-accents/abduct.gif" class="btn-att" />
             </div>
+
             <img src="assets/glitterblue.gif" class="divider-home-right" />
+
             <a href="adminlogin.php">
                 <p class="admin-login">Admin Login</p>
             </a>
