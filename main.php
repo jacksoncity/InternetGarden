@@ -3,6 +3,7 @@ session_start();
 $username = $_SESSION['username'] ?? '';
 $role = $_SESSION['role'] ?? '';
 ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -42,6 +43,7 @@ $role = $_SESSION['role'] ?? '';
                     class="garden-button" />
             </a>
         </div>
+
         <!-- Header of the main home landing page-->
         <div class="main-content-home">
             <div class="header">
@@ -110,9 +112,9 @@ $role = $_SESSION['role'] ?? '';
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 class="post-title">Test 1</h2>
+                                <h2 class="post-title">Geese - Getting Killed (2025)</h2>
                             </a>
-                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <h4 style="color: #1d7edfff">Alternative/Indie</h4>
                             <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
                         </div>
                     </div>
@@ -123,7 +125,20 @@ $role = $_SESSION['role'] ?? '';
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 class="post-title">Test 2</h2>
+                                <h2 class="post-title">Battlefield 6 (2025)</h2>
+                            </a>
+                            <h4 style="color: #1d7edfff">EA Games</h4>
+                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
+                        </div>
+                    </div>
+
+                    <div class="flex-items">
+                        <a href="indev.php" target="_blank">
+                            <img src="assets/projects-accents/project-thumbnails/emac.jpg" alt="Featured Thumbnail" class="music-img-post">
+                        </a>
+                        <div class="music-text-ele">
+                            <a href="indev.php" target="_blank">
+                                <h2 class="post-title">2005 Apple EMac Restoration</h2>
                             </a>
                             <h4 style="color: #1d7edfff">Test flavor text</h4>
                             <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
@@ -132,40 +147,27 @@ $role = $_SESSION['role'] ?? '';
 
                     <div class="flex-items">
                         <a href="indev.php" target="_blank">
-                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
+                            <img src="assets/music-posts/covers/rocket.jpg" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 class="post-title">Test 3</h2>
+                                <h2 class="post-title">Rocket - R is for Rocket (2025)</h2>
                             </a>
-                            <h4 style="color: #1d7edfff">Test flavor text</h4>
+                            <h4 style="color: #1d7edfff">Alternative/Indie</h4>
                             <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
                         </div>
                     </div>
 
                     <div class="flex-items">
                         <a href="indev.php" target="_blank">
-                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
+                            <img src="assets/projects-accents/project-thumbnails/monkey.jpg" alt="Featured Thumbnail" class="music-img-post">
                         </a>
                         <div class="music-text-ele">
                             <a href="indev.php" target="_blank">
-                                <h2 class="post-title">Test 4</h2>
+                                <h2 class="post-title">Collage of Images I Like</h2>
                             </a>
-                            <h4 style="color: #1d7edfff">Test flavor text</h4>
-                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
-                        </div>
-                    </div>
-
-                    <div class="flex-items">
-                        <a href="indev.php" target="_blank">
-                            <img src="assets/home-accents/" alt="Featured Thumbnail" class="music-img-post">
-                        </a>
-                        <div class="music-text-ele">
-                            <a href="indev.php" target="_blank">
-                                <h2 class="post-title">Test 5</h2>
-                            </a>
-                            <h4 style="color: #1d7edfff">Test flavor text</h4>
-                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
+                            <h4 style="color: #1d7edfff">Image Board</h4>
+                            <p class="preview-text">I really just wanted a place to put a collection of images that I find online and like. I urdge anyone who likes any of the art shown under this page to please click on the images, as it will redirect you to the source of the image, so that you can find the creator and give them the proper love they deserve.</p>
                         </div>
                     </div>
                 </div>

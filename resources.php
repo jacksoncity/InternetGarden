@@ -158,7 +158,23 @@ $role = $_SESSION['role'] ?? '';
           <table class="resource-table">
             <tr>
               <th>Website</th>
-              <th>Type</th>
+              <th>About</th>
+            </tr>
+            <tr>
+              <th><a href="https://simone.computer/#/" target="_blank">https://simone.computer/#/</a></th>
+              <th>Another cool indie web showcase</th>
+            </tr>
+            <tr>
+              <th><a href="https://www.saltybet.com/" target="_blank">https://www.saltybet.com/</a></th>
+              <th>Bet fake points and become the richest in this 24/7 Dreamcast Mugen fighter livestream</th>
+            </tr>
+            <tr>
+              <th><a href="https://suricrasia.online/iceberg/" target="_blank">https://suricrasia.online/iceberg/</a></th>
+              <th>Test your computer geek knowledge by browsing this extensive computer 'Iceberg' </th>
+            </tr>
+            <tr>
+              <th><a href="https://cari.institute/aesthetics?asc=true&sort=name" target="_blank">https://cari.institute/aesthetics?asc=true&sort=name</a></th>
+              <th>Ever liked the look of something aesthetically but didn't know what it was called? This site will help </th>
             </tr>
           </table>
         </div>
