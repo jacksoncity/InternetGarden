@@ -622,18 +622,21 @@ body.videogames {
 .vg-img-post {
   width: 200px;
   height: 280px;
-  padding: 15px;
+  padding: 5px;
+  border-radius: 15px;
 }
 
 .vg-img-post:hover {
-  width: 225px;
+  width: 235px;
   height: 315px;
-  padding: 2px;
+  padding: 5px;
+  border-radius: 15px;
 }
 
 .vg-text-ele {
   flex: 1;
   min-width: 0;
+  margin-left: 5%;
 }
 
 .vg-text-ele h4,
@@ -889,17 +892,20 @@ body.music {
 
 .music-img-post {
   width: 200px;
-  padding: 20px;
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .music-img-post:hover {
   width: 235px;
   padding: 5px;
+  border-radius: 20px;
 }
 
 .music-text-ele {
   flex: 1;
   min-width: 0;
+  margin-left: 5%;
 }
 
 .music-text-ele h4,
@@ -1180,6 +1186,7 @@ body.projects {
 .project-text-ele {
   flex: 1;
   min-width: 0;
+  margin-left: 5%;
 }
 
 .project-text-ele h2 {
@@ -1546,20 +1553,20 @@ body.blog {
 body.about {
   display: flex;
   flex-direction: column;
-  background-image: url("assets/about-accents/aboutbg.jpeg");
+  background-image: url("assets/about-accents/aboutbg.png");
   background-attachment: fixed;
   font-family: vcr;
   cursor: url("assets/mainCursor.png"), auto;
 }
 
 .flvrABOUT span {
-  background-color: rgb(150 61 46 / 0.9);
+  background-color: rgba(146, 146, 146, 0.76);
   padding: 8px 16px;
   border-radius: 10px;
 }
 
 .titleABOUT span {
-  background-color: rgb(150 61 46 / 0.9);
+  background-color: rgba(146, 146, 146, 0.76);
   padding: 14px 28px;
   border-radius: 10px;
 }
@@ -1570,7 +1577,7 @@ body.about {
   text-align: center;
   width: 175px;
   height: 100vh;
-  background-color: rgb(150 61 46 / 0.9);
+  background-color: rgba(146, 146, 146, 0.76);
   color: white;
   padding: 20px;
   position: sticky;
@@ -1609,11 +1616,15 @@ body.about {
 }
 
 .about-page-main {
-  background-color: rgb(150 61 46 / 0.9);
+  background-color: rgba(146, 146, 146, 0.76);
   margin-top: 10px;
   margin-bottom: 10px;
   border: 8px solid transparent;
   border-image: url(assets/about-accents/border-about.gif) 10 round;
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: 19px;
 }
 
 /* ADMIN LOGIN PAGE */

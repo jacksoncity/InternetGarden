@@ -55,7 +55,12 @@ $role = $_SESSION['role'] ?? '';
         </p>
       </div>
       <div class="about-page-main">
-        <h1>The creator of this page is......</h1>
+        <h1>What's up! I'm Jackson, the creator of this website.</h1>
+        <br>
+        <p>I am in my mid 20's and am from the United States. Ever since I could be on a computer I was on one so for a lot of my life I've been interested in learning as much as I can about them.
+          I even ended up graduating from college for Computer Science. For a while now I've been interested in web design but have never been able to apply the aesthetics that I want in order to get me interested.
+          I see this as a way to express my facination with the early internet, and an attempt to return to a less corporate feel to the place that I, and I assume you if you are here, regularly visit to relax and escape.</p>
+
       </div>
     </div>
   </div>

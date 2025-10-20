@@ -147,7 +147,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Rocket - R is for Rocket (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text">A very charming rock band reminiscent of late 90's and early 2000's rock/post-punk. This record has a lot of personality and I found myself to be a big fan of the band overall. if you would like to hear more detail about the standout tracks and why I like this band, then click to read the post.</p>
             </div>
           </div>
           <div class="flex-items-music">
@@ -163,6 +163,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
         </div>
+        <h2 class="introHOME-title"><a href="indev.php">[ Archive ]</a></h2>
       </div>
     </div>
 

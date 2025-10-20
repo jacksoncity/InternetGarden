@@ -144,6 +144,7 @@ $role = $_SESSION['role'] ?? '';
               <p class="preview-text"></p>
             </div>
           </div>
+
           <div class="flex-items-vg">
             <a href="https://store.steampowered.com/app/3354750/skate/" target="_blank">
               <img src="assets/vg-accents/boxart/skate.jpg" alt="Cover Art" class="vg-img-post">
@@ -157,6 +158,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
         </div>
+        <h2 class="introHOME-title"><a href="indev.php">[ Archive ]</a></h2>
       </div>
       <div class="adSpace">
         <img src="assets/vg-accents/jesuspsp.gif" class="fakepspad">

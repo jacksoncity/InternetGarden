@@ -92,9 +92,6 @@ $role = $_SESSION['role'] ?? '';
           </div>
 
           <div class="flex-items-blog">
-            <!-- <a href="indev.php">
-              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
-            </a> -->
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
                 <h2 class="post-title">Placeholder Title</h2>
@@ -116,9 +113,6 @@ $role = $_SESSION['role'] ?? '';
           </div>
 
           <div class="flex-items-blog">
-            <!-- <a href="indev.php">
-              <img src="assets/blog-accents/blog-thumbnails/coolcat.jpg" alt="Blog Thumbnail" class="curr-blog">
-            </a> -->
             <div class="project-text-ele">
               <a href="indev.php" target="_blank">
                 <h2 class="post-title">Placeholder Title</h2>
@@ -139,6 +133,7 @@ $role = $_SESSION['role'] ?? '';
             </div>
           </div>
         </div>
+        <h2 class="introHOME-title"><a href="indev.php">[ Archive ]</a></h2>
       </div>
     </div>
 

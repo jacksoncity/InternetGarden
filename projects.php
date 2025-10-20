@@ -110,7 +110,7 @@ $role = $_SESSION['role'] ?? '';
               <a href="indev.php" target="_blank">
                 <h2 class="post-title">Switch to Physical Media</h2>
               </a>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text">With the rising price of music streaming services and nothing to own to show for it, i got fed up and cancelled my spotify subscription in an attempt to switch to mostly physical music. Read more here about my switch, what moves i made to make switching easier, and suggestions for those who also would like to make the switch.</p>
             </div>
           </div>
           <div class="flex-items-pro">
@@ -121,7 +121,7 @@ $role = $_SESSION['role'] ?? '';
               <a href="indev.php" target="_blank">
                 <h2 class="post-title">CD Case Tracking Application</h2>
               </a>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text">In tendem with my switch to physical media, i ahve become encumbered with many different CD cases. And I want to catalouge all of the physical media that I now own, including an image of the case. To make this easier I am going to attempt to learn object tracking and image captuing using Yolov5. Join me in my attempt to learn something new and follow my progress.</p>
             </div>
           </div>
           <div class="flex-items-pro">
@@ -132,10 +132,11 @@ $role = $_SESSION['role'] ?? '';
               <a href="indev.php" target="_blank">
                 <h2 class="post-title">2005 Apple EMac Restoration</h2>
               </a>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text">Originally something I saw on Facebook Marketplace, I couldn't resist its beautiful CRT monitor and at only $25 I had to bite. The only problem is, it doesnt boot to the OS. However I believe this to be totally fixable. Track my progress and see what else I have done with the Emac my reading more here.</p>
             </div>
           </div>
         </div>
+        <h2 class="introHOME-title"><a href="indev.php">[ Archive ]</a></h2>
       </div>
     </div>
 

@@ -141,7 +141,7 @@ $role = $_SESSION['role'] ?? '';
                                 <h2 class="post-title">2005 Apple EMac Restoration</h2>
                             </a>
                             <h4 style="color: #1d7edfff">Test flavor text</h4>
-                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
+                            <p class="preview-text">Originally something I saw on Facebook Marketplace, I couldn't resist its beautiful CRT monitor and at only $25 I had to bite. The only problem is, it doesnt boot to the OS. However I believe this to be totally fixable. Track my progress and see what else I have done with the Emac my reading more here.</p>
                         </div>
                     </div>
 
@@ -154,7 +154,7 @@ $role = $_SESSION['role'] ?? '';
                                 <h2 class="post-title">Rocket - R is for Rocket (2025)</h2>
                             </a>
                             <h4 style="color: #1d7edfff">Alternative/Indie</h4>
-                            <p class="preview-text">Blah Blah Blah Blah Blah Blah</p>
+                            <p class="preview-text">A very charming rock band reminiscent of late 90's and early 2000's rock/post-punk. This record has a lot of personality and I found myself to be a big fan of the band overall. if you would like to hear more detail about the standout tracks and why I like this band, then click to read the post.</p>
                         </div>
                     </div>
 
