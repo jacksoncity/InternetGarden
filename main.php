@@ -80,6 +80,7 @@ $role = $_SESSION['role'] ?? '';
                     indieweb. You can display interests that are personal and meaningful
                     to you.
                     <br />
+                    <br />
                     I really enjoy the aesthetics of the early internet. I love the
                     creativity and ingenuity that comes from only having a few resources
                     to build what you want. It was also a time before ads festered in
@@ -92,6 +93,7 @@ $role = $_SESSION['role'] ?? '';
                     detached from the external resources. There are no ads, no
                     WordPress, no SEO optimization. I wanted something quiet and
                     interesting, a corner of the web that I can claim as my own.
+                    <br />
                     <br />
                     I hope that through this site, my Garden on the Internet, I can
                     express how fun the indie web can be, and a call to explore the

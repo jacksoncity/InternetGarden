@@ -110,7 +110,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Dummy - Dumb EPs (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text"> Dummy is a band that I am very bullish on in the underground rock scene. This new record which serves as a collection of unreleased singles that dont seem to really have any connection. but a collection of new Dummy songs is exciting enough for me, and there are many treats that lie within this Album.</p>
             </div>
           </div>
           <!-- REPEAT -->
@@ -123,7 +123,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Sword II - Spirit World Tour (2023)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text"> No one is doing it like Sword II. In a world where the hyperpop DJ like Charlie XCX and The Dare reigns supreme, Sword II take the familar sounds of the 2020's underground pop scene and inserts some of their personal flavor that keeps it fresh. </p>
             </div>
           </div>
           <div class="flex-items-music">
@@ -135,7 +135,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Wet Leg - Moisturizer (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text"> An album that I was not ready to be so excited about! I had not heard of this band before this record, however their catchy jams instantly caught me. Wet leg looks to make a name for themselves in this Pop/Alt scene adn this record does a good job at setting them up and showing off their strengths.</p>
             </div>
           </div>
           <div class="flex-items-music">
@@ -159,7 +159,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Geese - Getting Killed (2025)</h2>
               </a>
               <h4 style="color: #c5c762ff">Alternative/Indie</h4>
-              <p class="preview-text"> Blah Blah Blah Blah Blah Blah </p>
+              <p class="preview-text"> At this point everyone and their mother has heard of this band and im here to join the glaze train becuse Cameron Winter and the rest of the band but in particular the lead guitarist Emily Green do a great job at creating a good set of songs that do a lot more showing than telling as jumping into any of these songs is an absolute joy. </p>
             </div>
           </div>
         </div>

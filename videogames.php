@@ -105,7 +105,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Shin Megami Tensei 5: Vengeance</h2>
               </a>
               <h4 style="color: #e7d8d4">Atlus</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text">SMT 5, my beloved. SMT is my favorite media property of all time, I will buy it no matter what, but even trying to describe it as a neutral fan I can't help but gush about it. The gameplay is the press-turn system we all love and with so many 3d modeled and animated demons it shows the public what pokemon could be if they cared. PLEASE PLAY THIS GAME.</p>
             </div>
           </div>
           <div class="flex-items-vg">
@@ -117,7 +117,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Cyberpunk 2077 (2020)</h2>
               </a>
               <h4 style="color: #e7d8d4">CD PROJEKT RED</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text">My favorite RPG of all time now. The Sci-Fi setting is hypnotic, making you lose hours of your time simply driving around or talking to strangers and going on quests. The characters you meet,the fun gameplay and the setting are the selling points and they nail every one of them. Its still got that Western RPG jank we all love too.</p>
             </div>
           </div>
           <div class="flex-items-vg">
@@ -129,7 +129,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">The Binding of Isaac: Rebirth (2014)</h2>
               </a>
               <h4 style="color: #e7d8d4">Nicalis Inc</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text">My favorite game of all time. It's the game that I credit for getting me into gaming and keeping me around for so long. No two runs are a like and the themes explored are ones that I find fascinating. Its the grandfather of rouge-likes and will be the one that I will continue to call the best.</p>
             </div>
           </div>
           <div class="flex-items-vg">
@@ -141,7 +141,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">No Mans Sky (2016)</h2>
               </a>
               <h4 style="color: #e7d8d4">Hello Games</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text">I bought this gmae back on release in 2016, buying into the hype, which initially didn't deliver has now become what I want as the standard for space drived sci-fi games for now on. There is so muhc to do in this game, the only drawback being that, although its a mile wide its only an inch deep.</p>
             </div>
           </div>
 
@@ -154,7 +154,7 @@ $role = $_SESSION['role'] ?? '';
                 <h2 class="post-title">Skate (2025)</h2>
               </a>
               <h4 style="color: #e7d8d4">EA Games</h4>
-              <p class="preview-text"></p>
+              <p class="preview-text">The New entry in EA's Skate series is honestly a really good time. Understandably they have been underfire for the Early Access route that they went with this game. But for a game where you just want top turn off your brain and hit some sweet tricks with your buds then this is the game for you, as it is for me.</p>
             </div>
           </div>
         </div>
